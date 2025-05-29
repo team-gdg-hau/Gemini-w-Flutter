@@ -12,7 +12,7 @@ class LegalDocAnalyzerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Legal Doc Analyzer',
+      title: 'Paperproof Doc Analyzer',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.grey[100],
