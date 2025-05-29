@@ -15,7 +15,6 @@ Thank you for considering contributing to this project! 🎉
 ### 🧪 Submitting Code
 1. Fork the repository.
 2. Create a new branch:
-
 3. Make your changes.
 4. Test your changes thoroughly.
 5. Submit a Pull Request (PR) with:
@@ -28,3 +27,13 @@ Thank you for considering contributing to this project! 🎉
 - Keep your changes focused
 
 ### ✅ Commit Format Example
+- feat: add legality score calculation feature
+- fix: correct text extraction bug in OCR
+### 📦 Dependencies
+- Use only essential packages.
+- Run `flutter pub get` after adding new ones.
+
+## Need Help?
+Open an issue or reach out at [parejasarronkian@gmail.com].
+
+Happy coding! ✨
