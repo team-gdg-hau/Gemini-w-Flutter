@@ -202,8 +202,8 @@ Transparency of Changes: [score]
 No Abusive Clauses: [score]
 
 Output:
-- Good Legal
-- Bad Legal
+- Good Points 15 words each findings 
+- Bad Points 15 words each findings 
 - Verdict
 - Summary
 - Legality Score (0–100)
@@ -216,8 +216,8 @@ $text
       final response = await model.generateContent([Content.text(prompt)]);
       final output = response.text ?? '';
 
-      final goodStart = output.indexOf('Good Legal:');
-      final badStart = output.indexOf('Bad Legal:');
+      final goodStart = output.indexOf('Good Points:');
+      final badStart = output.indexOf('Bad Points:');
       final verdictStart = output.indexOf('Verdict:');
       final summaryStart = output.indexOf('Summary:');
       final scoreStart = output.indexOf('Legality Score');
@@ -232,8 +232,8 @@ $text
         if (label != null &&
             value != null &&
             label != 'Legality Score' &&
-            label != 'Good Legal' &&
-            label != 'Bad Legal' &&
+            label != 'Good Points' &&
+            label != 'Bad Points' &&
             label != 'Verdict' &&
             label != 'Summary') {
           criteriaScores[label] = value;
@@ -340,22 +340,42 @@ Output a bullet-point summary of the differences.
     }
   }
 
-  Widget _buildBulletText(String title, String content) {
+  Widget _buildBulletText(String title, String content, {required bool isDanger}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(title,
-            style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 18,
-                color: Colors.indigo)),
-        const SizedBox(height: 4),
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text('• ', style: TextStyle(fontSize: 16, height: 1.5)),
-            Expanded(child: Text(content, style: const TextStyle(fontSize: 16))),
-          ],
+        Text(
+          title,
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 18,
+            color: Colors.indigo,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: isDanger ? Colors.red.shade900 : Colors.green.shade900,
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(
+                isDanger ? Icons.block : Icons.thumb_up_alt,
+                color: Colors.white,
+                size: 20,
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(
+                  content,
+                  style: const TextStyle(fontSize: 16, color: Colors.white),
+                ),
+              ),
+            ],
+          ),
         ),
         const SizedBox(height: 16),
       ],
@@ -490,8 +510,8 @@ Output a bullet-point summary of the differences.
             ],
 
             if (_goodLegal.isNotEmpty) ...[
-              _buildBulletText('Good Legal:', _goodLegal),
-              Text('Good Legal:',
+              _buildBulletText('Good Points:', _goodLegal, isDanger: false),
+              Text('Good Points:',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 18,
@@ -501,8 +521,8 @@ Output a bullet-point summary of the differences.
               SizedBox(height: 16),
             ],
             if (_badLegal.isNotEmpty) ...[
-              _buildBulletText('Bad Legal:', _badLegal),
-              Text('Bad Legal:',
+              _buildBulletText('Bad Points:', _badLegal, isDanger: true),
+              Text('Bad Points:',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 18,
@@ -601,4 +621,3 @@ Output a bullet-point summary of the differences.
     );
   }
 }
-
