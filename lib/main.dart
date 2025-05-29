@@ -3,6 +3,8 @@ import 'package:image_picker/image_picker.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'dart:io';
+import 'dart:convert'; // For jsonDecode
+import 'package:flutter/services.dart'; // For rootBundle
 
 void main() => runApp(LegalDocAnalyzerApp());
 
@@ -48,12 +50,55 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen>
   bool _loading = false;
   File? _selectedImage;
   File? _secondImage;
+  List<Widget> _legalJargonWidgets = [];
 
   late AnimationController _animationController;
   late Animation<double> _progressAnimation;
 
   final String _apiKey = 'AIzaSyAVf0kDtdaaakhEbe12OVWUyS4GS-Rl0fs'; // Replace with your Gemini API Key
+  Future<Map<String, Map<String, String>>> _loadLegalTerms() async {
+    final jsonString = await rootBundle.loadString('lib/legal-jargon.json');
+    final List<dynamic> jsonList = jsonDecode(jsonString);
 
+    Map<String, Map<String, String>> termMap = {};
+    for (var item in jsonList) {
+      final term = item['term']?.toLowerCase();
+      if (term != null) {
+        termMap[term] = {
+          'translation': item['literal_translation'] ?? '',
+          'definition': item['definition'] ?? '',
+        };
+      }
+    }
+    return termMap;
+  }
+
+  Future<List<Widget>> _highlightLegalTerms(String docText) async {
+    final Map<String, Map<String, String>> legalTerms = await _loadLegalTerms();
+    List<Widget> foundTerms = [];
+
+    legalTerms.forEach((term, data) {
+      if (docText.toLowerCase().contains(term)) {
+        foundTerms.add(
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 6),
+            child: Card(
+              color: Colors.yellow[100],
+              child: ListTile(
+                title: Text(term, style: TextStyle(fontWeight: FontWeight.bold)),
+                subtitle: Text(
+                  '${data['translation']}\n\n${data['definition']}',
+                  style: TextStyle(fontSize: 14),
+                ),
+              ),
+            ),
+          ),
+        );
+      }
+    });
+
+    return foundTerms;
+  }
   @override
   void initState() {
     super.initState();
@@ -212,8 +257,9 @@ $text
             ? RegExp(r'\d+').stringMatch(output.substring(scoreStart)) ?? ''
             : '';
         _criteriaScores = criteriaScores;
-      });
 
+      });
+      _legalJargonWidgets = await _highlightLegalTerms(text);
       _animationController.forward();
 
       await Future.delayed(Duration(milliseconds: 300));
@@ -434,6 +480,15 @@ Output a bullet-point summary of the differences.
               CircularProgressIndicator(),
               SizedBox(height: 16),
             ],
+            if (_legalJargonWidgets.isNotEmpty) ...[
+              SizedBox(height: 16),
+              Text('Legal Jargon Explained:',
+                  style: TextStyle(
+                      fontSize: 18, fontWeight: FontWeight.bold, color: Colors.indigo)),
+              SizedBox(height: 8),
+              ..._legalJargonWidgets,
+            ],
+
             if (_goodLegal.isNotEmpty) ...[
               _buildBulletText('Good Legal:', _goodLegal),
               Text('Good Legal:',
