@@ -1,0 +1,3272 @@
+[
+  {
+    "term": "a fortiori",
+    "literal_translation": "from stronger",
+    "definition": "An \"argument from a stronger reason\", meaning that, because one fact is true, a second (related and included) fact must also be true."
+  },
+  {
+    "term": "a mensa et thoro",
+    "literal_translation": "from table and bed",
+    "definition": "Divorce a mensa et thoro indicates legal separation without legal divorce."
+  },
+  {
+    "term": "a posteriori",
+    "literal_translation": "from later",
+    "definition": "An argument derived after an event, having the knowledge about the event. Inductive reasoning from observations and experiments."
+  },
+  {
+    "term": "a priori",
+    "literal_translation": "from earlier",
+    "definition": "An argument derived before an event, without needing to have the knowledge about the event. Deductive reasoning from general principles."
+  },
+  {
+    "term": "a quo",
+    "literal_translation": "from which",
+    "definition": "Regarding a court below in an appeal, either a court of first instance or an appellate court, known as the court a quo."
+  },
+  {
+    "term": "ab extra",
+    "literal_translation": "from outside",
+    "definition": "Concerning a case, a person may have received some funding from a 3rd party. This funding may have been considered ab extra."
+  },
+  {
+    "term": "ab initio",
+    "literal_translation": "from the beginning",
+    "definition": "\"Commonly used referring to the time a contract, statute, marriage, or deed become legal. e.g. The couple was covered ab initio by her health policy.\"[1]"
+  },
+  {
+    "term": "absque hoc",
+    "literal_translation": "without this",
+    "definition": "\"Presenting the negative portion of a plea when pleading at common by way a special traverse.\"[1]"
+  },
+  {
+    "term": "Actio non datur non damnificato",
+    "literal_translation": "An action is not given to one who is not injured.",
+    "definition": "The requirement that in most private legal actions, the person bringing the action must have been damaged in some way. [2]"
+  },
+  {
+    "term": "Actus legis nemini facit injurium",
+    "literal_translation": "The act of law injures no one.",
+    "definition": null
+  },
+  {
+    "term": "Actus non facit reum, nisi mens sit rea",
+    "literal_translation": "No act is punishable that is not the result of a guilty mind.",
+    "definition": "The prosecution in a criminal case must prove beyond a reasonable doubt, not only a criminal act, but also a certain level of a guilty mind (mens rea), specified in the criminal statute.[3]"
+  },
+  {
+    "term": "actus reus",
+    "literal_translation": "guilty act",
+    "definition": "Part of what proves criminal liability (with mens rea)."
+  },
+  {
+    "term": "ad coelum",
+    "literal_translation": "to the sky",
+    "definition": "Abbreviated from Cuius est solum eius est usque ad coelum et ad infernos which translates to \"[for] whoever owns [the] soil, [it] is his all the way [up] to Heaven and [down] to Hell.\" The principle that the owner of a parcel of land also owns the air above and the ground below the parcel."
+  },
+  {
+    "term": "ad colligenda bona",
+    "literal_translation": "to collect the goods",
+    "definition": "In cases of a disputed will, delay may endanger the assets of the deceased. Therefore, a court can give a person a writ of ad colligenda bona, which entitles them to collect and preserve the goods while their rightful owner is determined. Afterwards, that person will release the goods to the rightful owner. [4]"
+  },
+  {
+    "term": "ad hoc",
+    "literal_translation": "for this",
+    "definition": "Generally signifies a solution designed for a specific problem or task, non-generalizable, and not intended to be able to be adapted to other purposes."
+  },
+  {
+    "term": "ad hominem",
+    "literal_translation": "at the person",
+    "definition": "Attempting to make a point of logic by attacking an opponent's character rather than answering their argument."
+  },
+  {
+    "term": "ad idem",
+    "literal_translation": "to the same thing",
+    "definition": "In agreement."
+  },
+  {
+    "term": "ad infinitum",
+    "literal_translation": "to infinity",
+    "definition": "To continue forever."
+  },
+  {
+    "term": "ad litem",
+    "literal_translation": "for the case",
+    "definition": "Describes those designated to represent parties deemed incapable of representing themselves, such as a child or incapacitated adult."
+  },
+  {
+    "term": "ad quod damnum",
+    "literal_translation": "according to the harm",
+    "definition": "Used in tort law. Implies that the reward or penalty ought to correspond to the damage suffered or inflicted."
+  },
+  {
+    "term": "ad valorem",
+    "literal_translation": "according to value",
+    "definition": null
+  },
+  {
+    "term": "adjournment sine die",
+    "literal_translation": "adjournment without a day",
+    "definition": "When an assembly adjourns without setting a date for its next meeting."
+  },
+  {
+    "term": "affidavit",
+    "literal_translation": "he has sworn",
+    "definition": "A formal statement of fact."
+  },
+  {
+    "term": "allocatur",
+    "literal_translation": "it is allowed",
+    "definition": "Generally, a statement from a court that a writ is allowed (i.e. granted); most commonly, a grant of leave to appeal by the Supreme Court of Pennsylvania, in reference to which the word is used equivalently to certiorari (q.v.) elsewhere."
+  },
+  {
+    "term": "alter ego",
+    "literal_translation": "another I",
+    "definition": "A second identity living within a person."
+  },
+  {
+    "term": "Alteri stipulari nemo potest",
+    "literal_translation": "No-one can alter on their own a contract",
+    "definition": null
+  },
+  {
+    "term": "amicus curiae",
+    "literal_translation": "friend of the court",
+    "definition": "A person who offers information to a court regarding a case before it."
+  },
+  {
+    "term": "animus contrahendi",
+    "literal_translation": "contractual intent",
+    "definition": "Intention to contract."
+  },
+  {
+    "term": "animus manendi",
+    "literal_translation": "intention to remain",
+    "definition": "The subjective intent to remain indefinitely in a place so as to establish it as one's permanent residence. [5] Along with actual residence, this is used to establish domicile. [6] Also called animus remanendi. See diversity of citizenship."
+  },
+  {
+    "term": "animus nocendi",
+    "literal_translation": "intention to harm",
+    "definition": "The subjective state of mind of the author of a crime, with reference to the exact knowledge of illegal content of their behaviour, and of its possible consequences."
+  },
+  {
+    "term": "animus possidendi",
+    "literal_translation": "intention to possess",
+    "definition": "\"In order to claim possessory rights, an individual must establish physical control of the res and the intention to possess (i.e. animus possidendi)\"[7]"
+  },
+  {
+    "term": "animus revertendi",
+    "literal_translation": "intention to return",
+    "definition": "\"Wild animals, such as bees and homing pigeons, that by habit go 'home' to their possessor. Used when discussing ferae naturae.\"[7]"
+  },
+  {
+    "term": "animus testandi",
+    "literal_translation": "testamentary intent",
+    "definition": "The intention, when writing a document, that the document should serve as a last will and testament.[8]"
+  },
+  {
+    "term": "ante",
+    "literal_translation": "before",
+    "definition": "\"An antenuptial agreement is a contract between two people that is executed before marriage.\""
+  },
+  {
+    "term": "(in) arguendo",
+    "literal_translation": "for the sake of argument",
+    "definition": null
+  },
+  {
+    "term": "bona fide",
+    "literal_translation": "in good faith",
+    "definition": "Implies sincere good intention regardless of outcome."
+  },
+  {
+    "term": "bona vacantia",
+    "literal_translation": "ownerless goods",
+    "definition": null
+  },
+  {
+    "term": "cadit quaestio",
+    "literal_translation": "the question falls",
+    "definition": "Indicates that a settlement to a dispute or issue has been reached, and the issue is now resolved."
+  },
+  {
+    "term": "casus belli",
+    "literal_translation": "case of war",
+    "definition": "The justification for acts of war."
+  },
+  {
+    "term": "caveat",
+    "literal_translation": "May he beware",
+    "definition": "When used by itself, refers to a qualification, or warning."
+  },
+  {
+    "term": "caveat emptor",
+    "literal_translation": "Let the buyer beware",
+    "definition": "In addition to the general warning, also refers to a legal doctrine wherein a buyer could not get relief from a seller for defects present on property which rendered it unfit for use."
+  },
+  {
+    "term": "certiorari",
+    "literal_translation": "to be apprised",
+    "definition": "A type of writ seeking judicial review."
+  },
+  {
+    "term": "cessante ratione legis cessat ipsa lex",
+    "literal_translation": "when the reason for a law ceases, so does the law itself",
+    "definition": "Herbert Broom's text of 1858 on legal maxims lists the phrase under the heading \"Rules of logic\", stating: Reason is the soul of the law, and when the reason of any particular law ceases, so does the law itself.[9]"
+  },
+  {
+    "term": "ceteris paribus",
+    "literal_translation": "with other things the same",
+    "definition": "More commonly rendered in English as \"All other things being equal.\""
+  },
+  {
+    "term": "compos mentis",
+    "literal_translation": "having command of mind",
+    "definition": "Of sound mind. Also used in the negative \"Non compos mentis\", meaning \"Not of sound mind\"."
+  },
+  {
+    "term": "condicio sine qua non",
+    "literal_translation": "A condition without which it could not be",
+    "definition": "An indispensable and essential action, condition, or ingredient."
+  },
+  {
+    "term": "consensus ad idem",
+    "literal_translation": "agreement to the same",
+    "definition": "Meeting of the minds, mutual assent, or concurrence of wills. Parties must be of one mind and their promises must relate to the same subject or object[10] Also consensus in idem."
+  },
+  {
+    "term": "contra",
+    "literal_translation": "against",
+    "definition": "Used in case citations to indicate that the cited source directly contradicts the point being made."
+  },
+  {
+    "term": "contra legem",
+    "literal_translation": "against the law",
+    "definition": "Used when a court or tribunal hands down a decision that is contrary to the laws of the governing state."
+  },
+  {
+    "term": "contradictio in adjecto",
+    "literal_translation": "contradiction in adjective",
+    "definition": "A contradiction where adjective contradicts its noun (e.g., a square triangle)."
+  },
+  {
+    "term": "contra proferentem",
+    "literal_translation": "against the one bringing forth",
+    "definition": "Used in contract law to stipulate that an ambiguous term in a contract shall be interpreted against the interests of the party that insisted upon the term's inclusion. Prevents the intentional additions of ambiguous terminology from being exploited by the party who insisted on its inclusion."
+  },
+  {
+    "term": "coram non judice",
+    "literal_translation": "before one who is not a judge",
+    "definition": "Refers to a legal proceeding without a judge, or with a judge who does not have proper jurisdiction."
+  },
+  {
+    "term": "corpus delicti",
+    "literal_translation": "body of the crime",
+    "definition": "A person cannot be convicted of a crime, unless it can be proven that the crime was even committed."
+  },
+  {
+    "term": "corpus juris",
+    "literal_translation": "body of law",
+    "definition": "The complete collection of laws of a particular jurisdiction or court."
+  },
+  {
+    "term": "corpus juris civilis",
+    "literal_translation": "body of civil law",
+    "definition": "The complete collection of civil laws of a particular jurisdiction or court. Also sometimes used to refer to the Code of Justinian."
+  },
+  {
+    "term": "corpus juris gentium",
+    "literal_translation": "body of the law of nations",
+    "definition": "The complete collection of international law."
+  },
+  {
+    "term": "corpus juris secundum",
+    "literal_translation": null,
+    "definition": "An encyclopedia of US law drawn from US Federal and State court decisions."
+  },
+  {
+    "term": "crimen falsi",
+    "literal_translation": "crime of falsifying",
+    "definition": "Forgery."
+  },
+  {
+    "term": "cui bono",
+    "literal_translation": "as a benefit to whom?",
+    "definition": "Suggests that the perpetrator(s) of a crime can often be found by investigating those who would have benefited financially from the crime, even if it is not immediately obvious."
+  },
+  {
+    "term": "curia advisari vult",
+    "literal_translation": "the court wishes to consider",
+    "definition": "Signifies the intent of a court to consider the points of law argued during advocacy, prior to judgement."
+  },
+  {
+    "term": "de bonis asportatis",
+    "literal_translation": "carrying goods away",
+    "definition": "Specifies that larceny was taking place in addition to any other crime named. E.g. \"trespass de bonis asportatis\"."
+  },
+  {
+    "term": "debellatio",
+    "literal_translation": "warring down",
+    "definition": "Complete annihilation of a warring party, bringing about the end of the conflict."
+  },
+  {
+    "term": "de bonis non administratis",
+    "literal_translation": "of goods not administered",
+    "definition": "Assets of an estate remaining after the death (or removal) of the designated estate administrator. An \"administrator de bonis non administratis\" will then be appointed to dispose of these goods."
+  },
+  {
+    "term": "de die in diem",
+    "literal_translation": "from day to day",
+    "definition": "Generally refers to a type of labor in which the worker is paid fully at the completion of each day's work."
+  },
+  {
+    "term": "de facto",
+    "literal_translation": "in fact",
+    "definition": "Literally \"from fact\"; often used to mean something that is true in practice, but has not been officially instituted or endorsed. \"For all intents and purposes\". Cf. de jure."
+  },
+  {
+    "term": "de futuro",
+    "literal_translation": "concerning the future",
+    "definition": "At a future date."
+  },
+  {
+    "term": "de integro",
+    "literal_translation": "concerning the whole",
+    "definition": "Often used to mean \"start it all over\", in the context of \"repeat de integro\"."
+  },
+  {
+    "term": "de jure",
+    "literal_translation": "according to law",
+    "definition": "Literally \"from law\"; something that is established in law, whether or not it is true in general practice. Cf. de facto."
+  },
+  {
+    "term": "de lege ferenda",
+    "literal_translation": "of the law as it should be",
+    "definition": "Used in the context of \"how the law should be\", such as for proposed legislation."
+  },
+  {
+    "term": "de lege lata",
+    "literal_translation": "of the law as it is",
+    "definition": "Concerning the law as it exists, without consideration of how things should be."
+  },
+  {
+    "term": "de minimis",
+    "literal_translation": "about the smallest things",
+    "definition": "Various legal areas concerning small amounts or small degrees."
+  },
+  {
+    "term": "de minimis non curat lex",
+    "literal_translation": "the law is not concerned with minimal things",
+    "definition": "The rule that the law will not remedy an injury that is minimal. [11]"
+  },
+  {
+    "term": "de novo",
+    "literal_translation": "anew",
+    "definition": "Often used in the context of \"trial de novo\" a new trial ordered when the previous one failed to reach a conclusion."
+  },
+  {
+    "term": "deorum injuriae diis curae",
+    "literal_translation": "The gods take care of injuries to the gods",
+    "definition": "Blasphemy is a crime against God, rather than against the State."
+  },
+  {
+    "term": "dictum",
+    "literal_translation": "(thing) said",
+    "definition": "A statement given some weight or consideration due to the respect given the person making it."
+  },
+  {
+    "term": "doli incapax",
+    "literal_translation": "incapable of guilt",
+    "definition": "Presumption that young children or persons with diminished mental capacity cannot form the intent to commit a crime."
+  },
+  {
+    "term": "dolus bonus",
+    "literal_translation": null,
+    "definition": "Justinian Digest"
+  },
+  {
+    "term": "dolus malus",
+    "literal_translation": null,
+    "definition": "Justinian Digest"
+  },
+  {
+    "term": "dolus specialis",
+    "literal_translation": "Specific deceit",
+    "definition": "Heavily used in the context of genocide in international law."
+  },
+  {
+    "term": "domitae naturae",
+    "literal_translation": "tame by nature",
+    "definition": "Tame or domesticated animal. Also called mansuetae naturae. Opposite of ferae naturae (below)"
+  },
+  {
+    "term": "donatio mortis causa",
+    "literal_translation": "deathbed gift",
+    "definition": "Gift causa mortis; \"The donor, contemplating imminent death, declares words of present gifting and delivers the gift to the donee or someone who clearly takes possession on behalf of the donee. The gift becomes effective at death but remains revocable until that time.\"[7]"
+  },
+  {
+    "term": "dramatis personae",
+    "literal_translation": "persons of the drama",
+    "definition": null
+  },
+  {
+    "term": "duces tecum",
+    "literal_translation": "bring with you",
+    "definition": "A \"subpoena duces tecum\" is a summons to produce physical evidence for a trial."
+  },
+  {
+    "term": "ejusdem generis",
+    "literal_translation": "of the same class",
+    "definition": "Known as a \"canon of construction\", it states that when a limited list of specific things also includes a more general class, that the scope of that more general class shall be limited to other items more like the specific items in the list."
+  },
+  {
+    "term": "eo nomine",
+    "literal_translation": "by that name",
+    "definition": null
+  },
+  {
+    "term": "erga omnes",
+    "literal_translation": "towards all",
+    "definition": "Refers to rights or obligations that are owed towards all."
+  },
+  {
+    "term": "ergo",
+    "literal_translation": "therefore",
+    "definition": null
+  },
+  {
+    "term": "erratum",
+    "literal_translation": "having been made in error",
+    "definition": null
+  },
+  {
+    "term": "et al.",
+    "literal_translation": "and others",
+    "definition": "Abbreviation of et alii, meaning \"and others\"."
+  },
+  {
+    "term": "et cetera",
+    "literal_translation": "and other things",
+    "definition": "Generally used in the sense of \"and so forth\"."
+  },
+  {
+    "term": "et seq.",
+    "literal_translation": "and the following things",
+    "definition": "Abbreviation of et sequens, meaning \"and the following ones\". Used in citations to indicate that the cited portion extends to the pages following the cited page."
+  },
+  {
+    "term": "et uxor",
+    "literal_translation": "and wife",
+    "definition": "Usually used instead of naming a man's wife as a party in a case."
+  },
+  {
+    "term": "et vir",
+    "literal_translation": "and husband",
+    "definition": "Usually used instead of naming a woman's husband as a party in a case."
+  },
+  {
+    "term": "ex aequo et bono",
+    "literal_translation": "of equity and [the] good",
+    "definition": "Usually defined as \"what is right and good.\" Used to describe the power of a judge or arbiter to consider only what is fair and good for the specific case, and not necessarily what the law may require. In courts, usually only done if all parties agree."
+  },
+  {
+    "term": "ex ante",
+    "literal_translation": "of before",
+    "definition": "Essentially meaning \"before the event\", usually used when forecasting future events."
+  },
+  {
+    "term": "ex cathedra",
+    "literal_translation": "from the chair",
+    "definition": "Where chair refers to authority or position. Authority derived from one's position."
+  },
+  {
+    "term": "ex concessis",
+    "literal_translation": "from what has been conceded already",
+    "definition": "Also known as \"argument from commitment\", a type of valid ad hominem argument."
+  },
+  {
+    "term": "ex delicto",
+    "literal_translation": "from a transgression",
+    "definition": "The consequence of a crime or tort."
+  },
+  {
+    "term": "ex demissione",
+    "literal_translation": "from a transgression",
+    "definition": "part of the title of the old action of ejectment Jones v. Doe ex dem. Smith"
+  },
+  {
+    "term": "Ex dolo malo non oritur actio",
+    "literal_translation": "No action arises from harm",
+    "definition": null
+  },
+  {
+    "term": "ex facie",
+    "literal_translation": "on the face",
+    "definition": "If a contract is blatantly and obviously incorrect or illegal, it can be considered void ex facie without any further analysis or arguments."
+  },
+  {
+    "term": "ex fida bona",
+    "literal_translation": "good business norms",
+    "definition": null
+  },
+  {
+    "term": "ex gratia",
+    "literal_translation": "by favor",
+    "definition": "Something done voluntarily and with no expectation of a legal liability arising therefrom."
+  },
+  {
+    "term": "ex officio",
+    "literal_translation": "from the office",
+    "definition": "Something done or realized by the fact of holding an office or position."
+  },
+  {
+    "term": "ex parte",
+    "literal_translation": "from [for] one party",
+    "definition": "A decision reached, or case brought, by or for one party without the other party being present."
+  },
+  {
+    "term": "ex post",
+    "literal_translation": "from after",
+    "definition": "Based on knowledge of the past."
+  },
+  {
+    "term": "ex post facto",
+    "literal_translation": "from a thing done afterward",
+    "definition": "Commonly said as \"after the fact.\""
+  },
+  {
+    "term": "ex post facto law",
+    "literal_translation": null,
+    "definition": "A retroactive law. E.g. a law that makes illegal an act that was not illegal when it was done."
+  },
+  {
+    "term": "ex proprio motu",
+    "literal_translation": "by [one's] own motion",
+    "definition": "Commonly spoken as \"by one's own accord.\""
+  },
+  {
+    "term": "ex rel",
+    "literal_translation": "[arising] out of the narration [of the relator]",
+    "definition": "Abbreviation of ex relatione. Used when the government brings a case that arises from the information conveyed to it by a third party (\"relator\")."
+  },
+  {
+    "term": "ex tempore",
+    "literal_translation": "At the time",
+    "definition": "Referring to a decision delivered at the time of a hearing, rather than having the judgment reserved for a later date."
+  },
+  {
+    "term": "exempli gratia",
+    "literal_translation": "for the sake of example",
+    "definition": "Usually abbreviated \"e.g.\"."
+  },
+  {
+    "term": "ex tunc",
+    "literal_translation": "from then",
+    "definition": "Term used in contract law to specify terms that are voided or confirmed in effect from the execution of the contract. Cf. ex nunc."
+  },
+  {
+    "term": "Ex turpi causa non oritur actio",
+    "literal_translation": null,
+    "definition": null
+  },
+  {
+    "term": "ex nunc",
+    "literal_translation": "from now on",
+    "definition": "Term used in contract law to specify terms that are voided or confirmed in effect only in the future and not prior to the contract, or its adjudication. Cf. ex tunc."
+  },
+  {
+    "term": "extant",
+    "literal_translation": "existing",
+    "definition": "Refers to things that are currently existing at a given point, rather than things that are no longer so."
+  },
+  {
+    "term": "facio ut facias",
+    "literal_translation": "I do, that you may do",
+    "definition": "A type of contract wherein one party agrees to do work for the other, in order that the second party can then perform some work for the first in exchange."
+  },
+  {
+    "term": "factum",
+    "literal_translation": "deed",
+    "definition": "1. an assured statement made; 2. completion of a will and all its parts to make it valid and legal; 3). book of facts and law presented in a Canadian court."
+  },
+  {
+    "term": "favor contractus",
+    "literal_translation": "favor of the contract",
+    "definition": "A concept in treaty law that prefers the maintaining of a contract over letting it expire for purely procedural reasons."
+  },
+  {
+    "term": "felo de se",
+    "literal_translation": "felon of himself",
+    "definition": "A suicide. This archaic term stems from English common law, where suicide was legally a felony, thus a person who committed suicide was treated as a felon for purposes of estate disposal."
+  },
+  {
+    "term": "ferae naturae",
+    "literal_translation": "wild animals by nature",
+    "definition": "Wild animals residing on unowned property do not belong to any party in a dispute on the land. Opposite of domitae naturae (above)."
+  },
+  {
+    "term": "fiat",
+    "literal_translation": "Let it be done.",
+    "definition": "A warrant issued by a judge for some legal proceedings."
+  },
+  {
+    "term": "fieri facias",
+    "literal_translation": "May you cause to be done.",
+    "definition": "A writ ordering the local law enforcement to ensure that damages awarded by the court are properly recovered. A writ of execution."
+  },
+  {
+    "term": "fortis attachiamentum, validior praesumptionem",
+    "literal_translation": "strong attachment, the stronger presumption",
+    "definition": "When determining whether a chattel is a fixture: \"size doesn't matter, how much or degree chattel is attached to 'land' and to 'what' \""
+  },
+  {
+    "term": "forum non conveniens",
+    "literal_translation": "disagreeable forum",
+    "definition": "A concept wherein a court refuses to hear a particular matter, citing a more appropriate forum for the issue to be decided."
+  },
+  {
+    "term": "fumus boni iuris",
+    "literal_translation": "smoke of a good right",
+    "definition": "Refers to having a sufficient legal basis to bring legal action."
+  },
+  {
+    "term": "functus officio",
+    "literal_translation": "having performed his office",
+    "definition": "A person, court, statute, or legal document that has no legal authority, because its original legal purpose has been fulfilled."
+  },
+  {
+    "term": "gravamen",
+    "literal_translation": "things weighing down",
+    "definition": "The basic element or complaint of a lawsuit."
+  },
+  {
+    "term": "guardian ad litem",
+    "literal_translation": "guardian for the case",
+    "definition": "An independent party appointed in family law disputes to represent parties that cannot represent themselves, such as minors, developmentally disabled, or elderly."
+  },
+  {
+    "term": "habeas corpus",
+    "literal_translation": "May you have the body.",
+    "definition": "A writ used to challenge the legality of detention. Orders the detaining party to \"have the (living) body\" of the detained brought before the court where the detention will be investigated."
+  },
+  {
+    "term": "hostis humani generis",
+    "literal_translation": "enemy of the human race",
+    "definition": "A party considered to be the enemy of all nations, such as maritime pirates."
+  },
+  {
+    "term": "imprimatur",
+    "literal_translation": "Let it be printed.",
+    "definition": "An authorization for a document to be printed. Used in the context of approval by a religious body or other censoring authority."
+  },
+  {
+    "term": "in absentia",
+    "literal_translation": "in absence",
+    "definition": "A legal proceeding conducted without the presence of one party is said to be conducted in absentia, e.g., trial in absentia or being sentenced in absentia."
+  },
+  {
+    "term": "in articulo mortis",
+    "literal_translation": "at the moment of death",
+    "definition": "Often used in probate law, as well as for testimony in the sense of a dying declaration."
+  },
+  {
+    "term": "in camera",
+    "literal_translation": "in the chamber",
+    "definition": "Conducted in private, or in secret. The opposite of in open court."
+  },
+  {
+    "term": "in curia",
+    "literal_translation": "in court",
+    "definition": "Conducted in open court. The opposite of in camera."
+  },
+  {
+    "term": "in esse",
+    "literal_translation": "in existence",
+    "definition": "Actually existing in reality. Opposite of in posse."
+  },
+  {
+    "term": "in extenso",
+    "literal_translation": "in the extended",
+    "definition": "In extended form, or at full length. Often used to refer to publication of documents, where it means the full unabridged document is published."
+  },
+  {
+    "term": "in extremis",
+    "literal_translation": "in the extreme",
+    "definition": "In extreme circumstances. Often used to refer to \"at the point of death.\""
+  },
+  {
+    "term": "in flagrante delicto",
+    "literal_translation": "in blazing offense",
+    "definition": "Caught in the actual act of committing a crime. Often used as a euphemism for a couple caught in the act of sexual intercourse, though it technically refers to being \"caught in the act\" of any misdeed."
+  },
+  {
+    "term": "in forma pauperis",
+    "literal_translation": "in the manner of a pauper",
+    "definition": "Someone unable to afford the costs associated with a legal proceeding. As this will not be a barrier to seeking justice, such persons are given in forma pauperis status (usually abbreviated IFP), wherein most costs are waived or substantially reduced."
+  },
+  {
+    "term": "in futuro",
+    "literal_translation": "in the future",
+    "definition": "Refers to things to come, or things that may occur later but are not so now. As in in futuro debts, i.e. debts which become due and payable in the future."
+  },
+  {
+    "term": "in haec verba",
+    "literal_translation": "in these words",
+    "definition": "Used when including text in a complaint verbatim, where its appearance in that form is germane to the case, or is required to be included."
+  },
+  {
+    "term": "in limine",
+    "literal_translation": "at the threshold",
+    "definition": "A motion to a judge in a case that is heard and considered outside the presence of the jury."
+  },
+  {
+    "term": "in loco parentis",
+    "literal_translation": "in the place of a parent",
+    "definition": "Used to refer to a person or entity assuming the normal parental responsibilities for a minor. This can be used in transfers of legal guardianship, or in the case of schools or other institutions that act in the place of the parents on a day-to-day basis."
+  },
+  {
+    "term": "in mitius",
+    "literal_translation": "in the milder",
+    "definition": "A type of retroactive law that decriminalizes offenses committed in the past. Also known as an amnesty law."
+  },
+  {
+    "term": "in omnibus",
+    "literal_translation": "in all",
+    "definition": "Used to mean \"in every respect.\" Something applying to every aspect of a situation."
+  },
+  {
+    "term": "in pari delicto",
+    "literal_translation": "in equal offense",
+    "definition": "Used when both parties to a case are equally at fault."
+  },
+  {
+    "term": "in pari materia",
+    "literal_translation": "in the same matter",
+    "definition": "Refers to a situation where a law or statute may be ambiguous, and similar laws applying to the matter are used to interpret the vague one."
+  },
+  {
+    "term": "in personam",
+    "literal_translation": "in person",
+    "definition": "Used in the context of \"directed at this particular person\", refers to a judgement or subpoena directed at a specific named individual. Cf. in rem."
+  },
+  {
+    "term": "in pleno",
+    "literal_translation": "in full",
+    "definition": null
+  },
+  {
+    "term": "in propria persona",
+    "literal_translation": "in one's own person",
+    "definition": "Said of one who represents themselves in court without the [official] assistance of an attorney."
+  },
+  {
+    "term": "in re",
+    "literal_translation": "in the matter [of]",
+    "definition": "Used in the title of a decision or comment to identify the matter they are related to; usually used for a case where the proceeding is in rem or quasi in rem and not in personam (e.g. probate or bankrupt estate, guardianship, application for laying out a public highway) and occasionally for an ex parte proceeding (e.g. application for a writ of habeas corpus)."
+  },
+  {
+    "term": "in rem",
+    "literal_translation": "about a thing",
+    "definition": "Used in the context of a case against property, as opposed to a particular person. See also in rem jurisdiction. Cf. in personam."
+  },
+  {
+    "term": "in situ",
+    "literal_translation": "in position",
+    "definition": "Often used in the context of decisions or rulings about a property or thing \"left in place\" after the case as it was before."
+  },
+  {
+    "term": "in terrorem",
+    "literal_translation": "in order to frighten",
+    "definition": "A warning or threat to sue, made in the hopes of convincing the other party to take action to avoid a lawsuit."
+  },
+  {
+    "term": "in terrorem clause",
+    "literal_translation": "clause \"in order to frighten\"",
+    "definition": "A clause in a will that threatens any party who contests the will with being disinherited. Also called a no-contest clause."
+  },
+  {
+    "term": "in toto",
+    "literal_translation": "in total",
+    "definition": null
+  },
+  {
+    "term": "indicia",
+    "literal_translation": "indications",
+    "definition": "Often used in copyright notices. Refers to distinctive markings that identify a piece of intellectual property."
+  },
+  {
+    "term": "infra",
+    "literal_translation": "below or under",
+    "definition": null
+  },
+  {
+    "term": "iniuria sine damno",
+    "literal_translation": "injury without financial or property loss",
+    "definition": "It was stated in Ashby v. White that the law makes a presumption of damage in the absence of actual perceptible damage or financial loss and that the infringement of a right was enough for iniuria sine damno to be actionable. [12]"
+  },
+  {
+    "term": "innuendo",
+    "literal_translation": "by nodding",
+    "definition": "An intimation about someone or something, made indirectly or vaguely suggesting the thing being implied. Often used when the implied thing is negative or derogatory."
+  },
+  {
+    "term": "inter alia",
+    "literal_translation": "among others",
+    "definition": "Used to indicate an item cited has been pulled from a larger or more complete list."
+  },
+  {
+    "term": "inter rusticos",
+    "literal_translation": "among rustics",
+    "definition": "Refers to contract, debts, or other agreements made between parties who are not legal professionals."
+  },
+  {
+    "term": "inter se",
+    "literal_translation": "amongst themselves",
+    "definition": "Refers to obligations between members of the same group or party, differentiated from the whole party's obligations to another party."
+  },
+  {
+    "term": "inter vivos",
+    "literal_translation": "between the living",
+    "definition": "Refers to a gift or other non-sale transfer between living parties. This is in contrast to a will, where the transfer takes effect upon one party's death."
+  },
+  {
+    "term": "intra",
+    "literal_translation": "within",
+    "definition": null
+  },
+  {
+    "term": "intra fauces terrae",
+    "literal_translation": "within the jaws of the land",
+    "definition": "This term refers to a nation's territorial waters."
+  },
+  {
+    "term": "intra legem",
+    "literal_translation": "within the law",
+    "definition": "Used in various contexts to refer to the legal foundation for a thing."
+  },
+  {
+    "term": "intra vires",
+    "literal_translation": "within the powers",
+    "definition": "Something done which requires legal authority, and the act is performed accordingly. Cf. ultra vires."
+  },
+  {
+    "term": "ipse dixit",
+    "literal_translation": "He himself said it.",
+    "definition": "An assertion given undue weight solely by virtue of the person making the assertion."
+  },
+  {
+    "term": "ipsissima verba",
+    "literal_translation": "the very words",
+    "definition": "Referring to a document or ruling that is being quoted by another."
+  },
+  {
+    "term": "ipso facto",
+    "literal_translation": "by the fact itself",
+    "definition": "Used in the context that one event is a direct and immediate consequence of another. \"In and of itself.\""
+  },
+  {
+    "term": "ipso jure",
+    "literal_translation": "the law itself",
+    "definition": "By operation of law."
+  },
+  {
+    "term": "jus",
+    "literal_translation": "law",
+    "definition": "For ius and various terms incorporating ius, see jus below and the relevant term incorporating jus"
+  },
+  {
+    "term": "ius civile vigilantibus scriptum est",
+    "literal_translation": "civil law is written for the vigilant",
+    "definition": "Noting that private law is written for those persons who are vigilant in pursuing their interests and diligently care for their own affairs."
+  },
+  {
+    "term": "jurat",
+    "literal_translation": "(He) swears",
+    "definition": "Appears at the end of an affidavit, where the party making the affirmation signs the oath, and the information on whom the oath was sworn before is placed."
+  },
+  {
+    "term": "juris privati",
+    "literal_translation": "of private right",
+    "definition": "Not clothed with a public interest."
+  },
+  {
+    "term": "jus",
+    "literal_translation": "law, right",
+    "definition": "Essentially: law."
+  },
+  {
+    "term": "jus accrescendi",
+    "literal_translation": "right of survivorship",
+    "definition": "Right of survivorship: In property law, on the death of one joint tenant, that tenant's interest passes automatically to the surviving tenant(s) to hold jointly until the estate is held by a sole tenant. The only way to defeat the right of survivorship is to sever the joint tenancy during the lifetime of the parties, the right of survivorship takes priority over a will or interstate accession rules. [7]"
+  },
+  {
+    "term": "jus ad bellum",
+    "literal_translation": "laws to war",
+    "definition": "Refers to legalities considered before entering into a war, to ensure it is legal to go to war initially. Not to be confused with ius in bello (q.v.), the \"laws of war\" concerning how war is carried out."
+  },
+  {
+    "term": "jus civile",
+    "literal_translation": "civil law",
+    "definition": "A codified set of laws concerning citizenry, and how the laws apply to them."
+  },
+  {
+    "term": "jus cogens",
+    "literal_translation": "compelling law",
+    "definition": "Internationally agreed laws that bear no deviation, and do not require treaties to be in effect. An example is law prohibiting genocide."
+  },
+  {
+    "term": "jus gentium",
+    "literal_translation": "law of nations",
+    "definition": "Customary law followed by all nations. Nations being at peace with one another, without having to have an actual peace treaty in force, would be an example of this concept."
+  },
+  {
+    "term": "jus in bello",
+    "literal_translation": "law in war",
+    "definition": "Laws governing the conduct of parties in war."
+  },
+  {
+    "term": "jus inter gentes",
+    "literal_translation": "law between the peoples",
+    "definition": "Laws governing treaties and international agreements."
+  },
+  {
+    "term": "jus legationis",
+    "literal_translation": "right of legation",
+    "definition": "The right to send and receive diplomatic representation"
+  },
+  {
+    "term": "jus naturale",
+    "literal_translation": "natural law",
+    "definition": "Laws common to all people, that the average person would find reasonable, regardless of their nationality."
+  },
+  {
+    "term": "jus primae noctis",
+    "literal_translation": "right of the first night",
+    "definition": "Supposed right of the lord of an estate to take the virginity of women in his estate on their wedding night."
+  },
+  {
+    "term": "jus sanguinis",
+    "literal_translation": "right of blood",
+    "definition": "Social law concept wherein citizenship of a nation is determined by having one or both parents being citizens."
+  },
+  {
+    "term": "jus soli",
+    "literal_translation": "right of soil",
+    "definition": "Social law concept wherein citizenship of a nation is determined by place of birth."
+  },
+  {
+    "term": "jus tertii",
+    "literal_translation": "law of the third",
+    "definition": "Arguments made by a third party in disputes over possession, the intent of which is to question one of the principal parties' claims of ownership or rights to ownership."
+  },
+  {
+    "term": "Jus tractatuum",
+    "literal_translation": null,
+    "definition": null
+  },
+  {
+    "term": "lacuna",
+    "literal_translation": "void, gap",
+    "definition": "A situation arising that is not covered by any law, especially when related situations are covered by the law or where the situation appears to fall \"between\" multiple laws. Generally used in International Law, which is less comprehensive than most domestic legal systems."
+  },
+  {
+    "term": "lex communis",
+    "literal_translation": "common law",
+    "definition": "Alternate form of jus commune. Refers to common facets of civil law that underlie all aspects of the law."
+  },
+  {
+    "term": "lex fori",
+    "literal_translation": null,
+    "definition": "the law of the country in which an action is brought out"
+  },
+  {
+    "term": "lex lata",
+    "literal_translation": "the carried law",
+    "definition": "The law as it has been enacted."
+  },
+  {
+    "term": "lex loci",
+    "literal_translation": "the law of the place",
+    "definition": "The law of the country, state, or locality where the matter under litigation took place. Usually used in contract law, to determine which laws govern the contract."
+  },
+  {
+    "term": "lex scripta",
+    "literal_translation": "written law",
+    "definition": "Law that specifically codifies something, as opposed to common law or customary law."
+  },
+  {
+    "term": "liberum veto",
+    "literal_translation": "free veto",
+    "definition": "An aspect of a unanimous voting system, whereby any member can end discussion on a proposed law."
+  },
+  {
+    "term": "lingua franca",
+    "literal_translation": "the Frankish language",
+    "definition": "A language common to an area that is spoken by all, even if their mother tongue. Term derives from the name given to a common language used by traders in the Mediterranean basin dating from the Middle Ages."
+  },
+  {
+    "term": "lis alibi pendens",
+    "literal_translation": "lawsuit elsewhere pending",
+    "definition": "Refers to requesting a legal dispute be heard that is also being heard by another court. To avoid possibly contradictory judgements, this request will not be granted."
+  },
+  {
+    "term": "lis pendens",
+    "literal_translation": "suit pending",
+    "definition": "Often used in the context of public announcements of legal proceedings to come. Compare pendente lite (below)."
+  },
+  {
+    "term": "locus",
+    "literal_translation": "place",
+    "definition": null
+  },
+  {
+    "term": "locus delicti",
+    "literal_translation": "place of the crime",
+    "definition": "Shorthand version of Lex locus delicti commissi. The \"scene of the crime\"."
+  },
+  {
+    "term": "locus in quo",
+    "literal_translation": "the place in which",
+    "definition": "The location where a cause of action arose."
+  },
+  {
+    "term": "locus poenitentiae",
+    "literal_translation": "place of repentance",
+    "definition": "When one party withdraws from a contract before all parties are bound."
+  },
+  {
+    "term": "locus standi",
+    "literal_translation": "place of standing",
+    "definition": "The right of a party to appear and be heard before a court."
+  },
+  {
+    "term": "mala fide",
+    "literal_translation": "(in) bad faith",
+    "definition": "A condition of being fraudulent or deceptive in act or belief."
+  },
+  {
+    "term": "malum in se",
+    "literal_translation": "wrong in itself",
+    "definition": "Something considered a universal wrong or evil, regardless of the system of laws in effect."
+  },
+  {
+    "term": "malum prohibitum",
+    "literal_translation": "prohibited wrong",
+    "definition": "Something wrong or illegal by virtue of it being expressly prohibited, that might not otherwise be so."
+  },
+  {
+    "term": "mandamus",
+    "literal_translation": "we command",
+    "definition": "A writ issue by a higher court to a lower one, ordering that court or related officials to perform some administrative duty. Often used in the context of legal oversight of government agencies."
+  },
+  {
+    "term": "mare clausum",
+    "literal_translation": "closed sea",
+    "definition": "A body of water under the jurisdiction of a state or nation, to which access is not permitted, or is tightly regulated."
+  },
+  {
+    "term": "mare liberum",
+    "literal_translation": "open sea",
+    "definition": "A body of water open to all. Typically a synonym for International Waters, or in other legal parlance, the \"High Seas\"."
+  },
+  {
+    "term": "mea culpa",
+    "literal_translation": "through my fault",
+    "definition": "An acknowledgement of wrongdoing."
+  },
+  {
+    "term": "mens rea",
+    "literal_translation": "guilty mind",
+    "definition": "One of the requirements for a crime to be committed, the other being actus reus, the guilt act. This essentially is the basis for the notion that those without sufficient mental capability cannot be judged guilty of a crime."
+  },
+  {
+    "term": "modus operandi",
+    "literal_translation": "manner of operation",
+    "definition": "A person's particular way of doing things. Used when using behavioral analysis while investigating a crime. Often abbreviated \"M.O.\""
+  },
+  {
+    "term": "mortis causa",
+    "literal_translation": "in contemplation of death",
+    "definition": "Gift or trust that is made in contemplation of death."
+  },
+  {
+    "term": "mos pro lege",
+    "literal_translation": "custom for law",
+    "definition": "That which is the usual custom has the force of law."
+  },
+  {
+    "term": "motion in limine",
+    "literal_translation": "motion at the start",
+    "definition": "Motions offered at the start of a trial, often to suppress or pre-allow certain evidence or testimony."
+  },
+  {
+    "term": "mutatis mutandis",
+    "literal_translation": "having changed [the things that] needed to be changed",
+    "definition": "A caution to a reader when using one example to illustrate a related but slightly different situation. The caution is that the reader must adapt the example to change what is needed for it to apply to the new situation."
+  },
+  {
+    "term": "ne exeat",
+    "literal_translation": "let him not exit [the republic]",
+    "definition": "Shortened version of ne exeat republica: \"let him not exit the republic\". A writ to prevent one party to a dispute from leaving (or being taken) from the court's jurisdiction."
+  },
+  {
+    "term": "Nemo dat quod non habet",
+    "literal_translation": "Nobody can give what he has not",
+    "definition": "bankruptcy law"
+  },
+  {
+    "term": "Nemo debet bis vexari (pro una et eadem causa)",
+    "literal_translation": "No-one should be tried twice (for one and the same charge)",
+    "definition": "It is a principle of double jeopardy (autrefois acquit) where a person should not be tried twice on the same matter."
+  },
+  {
+    "term": "Nemo iudex in causa sua",
+    "literal_translation": "No-one should be a judge in his own case.",
+    "definition": "It is a principle of natural justice that no person can judge a case in which they have an interest."
+  },
+  {
+    "term": "Nemo potest dare quod suum non est",
+    "literal_translation": "No one can give what he possesses not",
+    "definition": "inter alia, see Dante on monarchy"
+  },
+  {
+    "term": "Nemo potest esse tenens et dominus",
+    "literal_translation": "No one can at the same time be a tenant and a landlord",
+    "definition": "Nor can one person covenant with himself and others jointly"
+  },
+  {
+    "term": "Nemo potest mutare consilium suum in alterius iniuriam",
+    "literal_translation": "Nobody can change his own purpose to another's injury",
+    "definition": null
+  },
+  {
+    "term": "Nemo potest nisi quod de jure",
+    "literal_translation": "A person can do only things, which s/he can do lawfully.",
+    "definition": "Under law, a thing which cannot be lawfully performed is considered not within one's power."
+  },
+  {
+    "term": "Nemo potest praecise cogi ad factum",
+    "literal_translation": "Nobody can be forced to a specific act",
+    "definition": null
+  },
+  {
+    "term": "Nemo potest venire contra factum proprium",
+    "literal_translation": "No-one can act in a way contrary to his own prior actions.",
+    "definition": "doctrines of promissory estoppel and equitable estoppel; prohibited for a party to act in such a way that contradicts a previous act of his own on which the other party relied, thus causing a detriment to the latter."
+  },
+  {
+    "term": "Nemo potest facere per alium quod per se non potest",
+    "literal_translation": "No one can do through another what he cannot do himself.",
+    "definition": null
+  },
+  {
+    "term": "nihil dicit",
+    "literal_translation": "He says nothing.",
+    "definition": "A judgement rendered in the absence of a plea, or in the event one party refuses to cooperate in the proceedings."
+  },
+  {
+    "term": "nisi",
+    "literal_translation": "unless",
+    "definition": "A decree that does not enter into force unless some other specified condition is met."
+  },
+  {
+    "term": "nisi prius",
+    "literal_translation": "unless first",
+    "definition": "Refers to the court of original jurisdiction in a given matter."
+  },
+  {
+    "term": "nolle prosequi",
+    "literal_translation": "not to prosecute",
+    "definition": "A statement from the prosecution that they are voluntarily discontinuing (or will not initiate) prosecution of a matter."
+  },
+  {
+    "term": "nolo contendere",
+    "literal_translation": "I do not wish to argue",
+    "definition": "A type of plea whereby the defendant neither admits nor denies the charge. Commonly interpreted as \"No contest.\""
+  },
+  {
+    "term": "non adimpleti contractus",
+    "literal_translation": "of a non-completed contract",
+    "definition": "In the case where a contract imposes specific obligations on both parties, one side cannot sue the other for failure to meet their obligations, if the plaintiff has not themselves met their own."
+  },
+  {
+    "term": "non compos mentis",
+    "literal_translation": "not in possession of [one's] mind",
+    "definition": "Not having mental capacity to perform some legal act"
+  },
+  {
+    "term": "non constat",
+    "literal_translation": "It is not certain.",
+    "definition": "Refers to information given by one who is not supposed to give testimony, such as an attorney bringing up new information that did not come from a witness. Such information is typically nullified."
+  },
+  {
+    "term": "non est factum",
+    "literal_translation": "It is not [my] deed.",
+    "definition": "A method whereby a signatory to a contract can invalidate it by showing that his signature to the contract was made unintentionally or without full understanding of the implications."
+  },
+  {
+    "term": "non est inventus",
+    "literal_translation": "He was not found.",
+    "definition": "Reported by a sheriff on writ when the defendant cannot be found in his county or jurisdiction."
+  },
+  {
+    "term": "non liquet",
+    "literal_translation": "It is not clear.",
+    "definition": "A type of verdict where positive guilt or innocence cannot be determined. Also called \"not proven\" in legal systems with such verdicts."
+  },
+  {
+    "term": "non obstante verdicto",
+    "literal_translation": "notwithstanding the verdict",
+    "definition": "A circumstance where the judge may override the jury verdict and reverse or modify the decision."
+  },
+  {
+    "term": "novus actus interveniens",
+    "literal_translation": "a new action coming between",
+    "definition": "A break in causation (and therefore probably liability) because something else has happened to remove the causal link."
+  },
+  {
+    "term": "noscitur a sociis",
+    "literal_translation": "It is known by the company it keeps.",
+    "definition": "An ambiguous word or term can be clarified by considering the whole context in which it is used, without having to define the term itself."
+  },
+  {
+    "term": "nota bene",
+    "literal_translation": "note well",
+    "definition": "A term used to direct the reader to cautionary or qualifying statements for the main text."
+  },
+  {
+    "term": "Nullum crimen sine lege",
+    "literal_translation": "No-one can face punishment except for an act that was criminalized before he performed the act",
+    "definition": null
+  },
+  {
+    "term": "Nulla poena sine culpa",
+    "literal_translation": "no punishment without fault",
+    "definition": "One cannot be punished for something that they are not guilty of."
+  },
+  {
+    "term": "nudum pactum",
+    "literal_translation": "naked promise",
+    "definition": "An unenforceable promise, due to the absence of consideration or value exchanged for the promise."
+  },
+  {
+    "term": "nulla bona",
+    "literal_translation": "no goods",
+    "definition": "Notation made when a defendant has no tangible property available to be seized in order to comply with a judgement."
+  },
+  {
+    "term": "nunc pro tunc",
+    "literal_translation": "now for then",
+    "definition": "An action by a court to correct a previous procedural or clerical error."
+  },
+  {
+    "term": "obiter dictum",
+    "literal_translation": "a thing said in passing",
+    "definition": "In law, an observation by a judge on some point of law not directly relevant to the case before him, and thus neither requiring his decision nor serving as a precedent, but nevertheless of persuasive authority. In general, any comment, remark or observation made in passing."
+  },
+  {
+    "term": "omnia praesumuntur rite essa acta",
+    "literal_translation": "Everything is presumed right about this act",
+    "definition": "When reviewing official acts, the presumption that all formalities were complied with."
+  },
+  {
+    "term": "onus probandi",
+    "literal_translation": "Burden of proof.",
+    "definition": null
+  },
+  {
+    "term": "ore tenus",
+    "literal_translation": "(evidence) presented orally",
+    "definition": null
+  },
+  {
+    "term": "pace",
+    "literal_translation": "with peace",
+    "definition": "Used to say 'contrary to the opinion of.' It is a polite way of marking a speaker's disagreement with someone or some body of thought."
+  },
+  {
+    "term": "par delictum",
+    "literal_translation": "equal fault",
+    "definition": "Used when both parties to a dispute are at fault."
+  },
+  {
+    "term": "parens patriae",
+    "literal_translation": "parent of the nation",
+    "definition": "Refers to the power of the State to act as parent to a child when the legal parents are unable or unwilling."
+  },
+  {
+    "term": "pari passu",
+    "literal_translation": "on equal footing",
+    "definition": "Equal ranking, equal priority (usually referring to creditors)."
+  },
+  {
+    "term": "partus sequitur ventrem",
+    "literal_translation": "Offspring follows the belly",
+    "definition": "Legal status of children of slaves is the same as their mother's."
+  },
+  {
+    "term": "pendente lite",
+    "literal_translation": "while the litigation is pending",
+    "definition": "Court orders used to provide relief until the final judgement is rendered. Commonly used in divorce proceedings. The adverbial form of lis pendens (above)."
+  },
+  {
+    "term": "per capita",
+    "literal_translation": "by head",
+    "definition": "Dividing money up strictly and equally according to the number of beneficiaries"
+  },
+  {
+    "term": "per contra",
+    "literal_translation": "by that against",
+    "definition": "Legal shorthand for \"in contrast to\"."
+  },
+  {
+    "term": "per curiam",
+    "literal_translation": "through the court",
+    "definition": "A decision delivered by a multi-judge panel, such as an appellate court, in which the decision is said to be authored by the court itself, instead of situations where those individual judges supporting the decision are named."
+  },
+  {
+    "term": "per incuriam",
+    "literal_translation": "by their neglect",
+    "definition": "A judgement given without reference to precedent."
+  },
+  {
+    "term": "per minas",
+    "literal_translation": "through threats",
+    "definition": "Used as a defense, when illegal acts were performed under duress."
+  },
+  {
+    "term": "per proxima amici",
+    "literal_translation": "by or through the next friend",
+    "definition": "Employed when an adult brings suit on behalf of a minor, who was unable to maintain an action on his own behalf at common law."
+  },
+  {
+    "term": "per quod",
+    "literal_translation": "by which",
+    "definition": "Used in legal documents in the same sense as \"whereby\". A per quod statement is typically used to show that specific acts had consequences which form the basis for the legal action."
+  },
+  {
+    "term": "per se",
+    "literal_translation": "by itself",
+    "definition": "Something that is, as a matter of law."
+  },
+  {
+    "term": "per stirpes",
+    "literal_translation": "by branch",
+    "definition": "An estate of a decedent is distributed per stirpes, if each branch of the family is to receive an equal share of an estate."
+  },
+  {
+    "term": "periculum in mora",
+    "literal_translation": "danger in delay",
+    "definition": "A condition given to support requests for urgent action, such as a protective order or restraining order."
+  },
+  {
+    "term": "persona non grata",
+    "literal_translation": "unwelcome person",
+    "definition": "A person who is officially considered unwelcome by a host country in which they are residing in a diplomatic capacity. The person is typically expelled to their home country."
+  },
+  {
+    "term": "posse comitatus",
+    "literal_translation": "power of the county",
+    "definition": "A body of armed citizens pressed into service by legal authority, to keep the peace or pursue a fugitive."
+  },
+  {
+    "term": "post hoc ergo propter hoc",
+    "literal_translation": "after this, therefore because of this",
+    "definition": "A logical fallacy that suggests that an action causes an effect simply because the action occurred before the effect."
+  },
+  {
+    "term": "post mortem",
+    "literal_translation": "after death",
+    "definition": "Refers to an autopsy, or as a qualification as to when some event occurred."
+  },
+  {
+    "term": "post mortem auctoris",
+    "literal_translation": "after the author's death",
+    "definition": "Used in reference to intellectual property rights, which usually are based around the author's lifetime."
+  },
+  {
+    "term": "postliminium",
+    "literal_translation": "return from the other",
+    "definition": "Refers to the return of legal standing and property of a person who returns to the jurisdiction of Rome"
+  },
+  {
+    "term": "praetor peregrinus",
+    "literal_translation": "magistrate of foreigners",
+    "definition": "The Roman praetor (magistrate) responsible for matters involving non-Romans."
+  },
+  {
+    "term": "prima facie",
+    "literal_translation": "at first face",
+    "definition": "A matter that appears to be sufficiently based in the evidence as to be considered true."
+  },
+  {
+    "term": "pro bono",
+    "literal_translation": "for good",
+    "definition": "Professional work done for free."
+  },
+  {
+    "term": "pro bono publico",
+    "literal_translation": "for the public good",
+    "definition": null
+  },
+  {
+    "term": "pro forma",
+    "literal_translation": "as a matter of form",
+    "definition": "Things done as formalities."
+  },
+  {
+    "term": "pro hac vice",
+    "literal_translation": "for this turn",
+    "definition": "Refers to a lawyer who is allowed to participate (only) in a specific case, despite being in a jurisdiction in which he has not been generally admitted."
+  },
+  {
+    "term": "pro per",
+    "literal_translation": "abbreviation of propria persona, meaning \"one's own person\"",
+    "definition": "Representing oneself, without counsel. Also known as pro se representation."
+  },
+  {
+    "term": "pro rata",
+    "literal_translation": "from the rate",
+    "definition": "A calculation adjusted based on a proportional value relevant to the calculation. An example would be a tenant being charged a portion of a month's rent based on having lived there less than a full month. The amount charged would be proportional to the time occupied."
+  },
+  {
+    "term": "pro se",
+    "literal_translation": "for himself",
+    "definition": "Representing oneself, without counsel. Also known as pro per representation."
+  },
+  {
+    "term": "pro tanto",
+    "literal_translation": "for so much",
+    "definition": "A partial payment of an award or claim, based on the defendant's ability to pay."
+  },
+  {
+    "term": "pro tem",
+    "literal_translation": "abbreviation of pro tempore, meaning \"for the time being\"",
+    "definition": "Something, such as an office held, that is temporary."
+  },
+  {
+    "term": "pro tempore",
+    "literal_translation": "for the time being",
+    "definition": "Something, such as an office held, that is temporary."
+  },
+  {
+    "term": "propria persona",
+    "literal_translation": "proper person",
+    "definition": "Refers to one representing themselves without the services of a lawyer. Also known as pro per representation."
+  },
+  {
+    "term": "qua",
+    "literal_translation": "which; as",
+    "definition": "In the capacity of."
+  },
+  {
+    "term": "quae ipso usu consumuntur",
+    "literal_translation": "Consumed by the use itself",
+    "definition": "Used in relation with objects whose purpose is to be consumed or destroyed. Examples include food, fuel, medicine, matches or money. [13]"
+  },
+  {
+    "term": "quaeritur",
+    "literal_translation": "It is sought.",
+    "definition": "The question is raised. Used to declare that a question is being asked in the following verbiage."
+  },
+  {
+    "term": "quaere",
+    "literal_translation": "query",
+    "definition": "Used in legal drafts to call attention to some uncertainty or inconsistency in the material being cited."
+  },
+  {
+    "term": "quantum",
+    "literal_translation": "how much",
+    "definition": null
+  },
+  {
+    "term": "quantum meruit",
+    "literal_translation": "as much as it deserves; as much as she or he has earned[10]",
+    "definition": "In contract law, a quasi-contractual remedy that permits partial reasonable payment for an incomplete piece of work (services and/or materials), assessed proportionately, where no price is established when the request is made.[10] In contract law, and in particular the requirement for consideration, if no fixed price is agreed upon for the service and/or materials, then one party would request a reasonable price for the said services and/or materials at the end of the job. A common example would be a plumber requested to fix a leak in the middle of the night.[10]"
+  },
+  {
+    "term": "quantum valebant",
+    "literal_translation": "as much as they were worth",
+    "definition": "Under Common Law, a remedy to compute reasonable damages when a contract has been breached - the implied promise of payment of a reasonable price for goods. In contract law, for requirements of consideration, reasonable worth for goods delivered. Usage: quantum meruit has replaced quantum valebant in consideration;[10] in the case of contract remedy, quantum valebant is being used less, and could be considered obsolete."
+  },
+  {
+    "term": "quasi",
+    "literal_translation": "as if",
+    "definition": "Resembling or being similar to something, without actually being that thing."
+  },
+  {
+    "term": "qui tam",
+    "literal_translation": "abbreviation of qui tam pro domino rege quam pro se ipso in hac parte sequitur, meaning \"who pursues in this action as much for the king as himself\".",
+    "definition": "In a qui tam action, one who assists the prosecution of a case is entitled to a proportion of any fines or penalties assessed."
+  },
+  {
+    "term": "quid pro quo",
+    "literal_translation": "this for that",
+    "definition": "An equal exchange of goods or services, or of money (or other consideration of equal value) for some goods or services."
+  },
+  {
+    "term": "quo ante",
+    "literal_translation": "as before",
+    "definition": "Returning to a specific state of affairs which preceded some defined action."
+  },
+  {
+    "term": "quo warranto",
+    "literal_translation": "by what warrant",
+    "definition": "A request made to someone exercising some power, to show by what legal right they are exercising that power. A type of writ."
+  },
+  {
+    "term": "quoad hoc",
+    "literal_translation": "as to this",
+    "definition": "Used to mean \"with respect to\" some named thing, such as when stating what the law is in regards to that named thing."
+  },
+  {
+    "term": "R",
+    "literal_translation": "Rex or Regina",
+    "definition": "King or Queen. In British cases, will see R v Freeman meaning Regina against Freeman. Changes with King or Queen on throne."
+  },
+  {
+    "term": "ratio decidendi",
+    "literal_translation": "reason for the decision",
+    "definition": "The point in a legal proceeding, or the legal precedent so involved, which led to the final decision being what it was."
+  },
+  {
+    "term": "ratio scripta",
+    "literal_translation": "written reason",
+    "definition": "The popular opinion of Roman law, held by those in the Medieval period."
+  },
+  {
+    "term": "rationae soli",
+    "literal_translation": "by reason of the soil",
+    "definition": "\"Certain rights may arise by virtue of ownership of the soil upon which wild animals are found.\"[7]"
+  },
+  {
+    "term": "rebus sic stantibus",
+    "literal_translation": "things thus standing",
+    "definition": "A qualification in a treaty or contract, that allows for nullification in the event fundamental circumstances change."
+  },
+  {
+    "term": "reddendo singula singulis",
+    "literal_translation": "referring solely to the last",
+    "definition": "The canon of construction that in a list of items containing a qualifying phrase at the end, the qualifier refers only to the last item in the list."
+  },
+  {
+    "term": "res",
+    "literal_translation": "thing, matter, issue, affair",
+    "definition": null
+  },
+  {
+    "term": "res communis",
+    "literal_translation": "common to all",
+    "definition": "Property constructs like airspace and water rights are said to be res communis – that is, a thing common to all, and that could not be the subject of ownership. With airspace, the difficulty has been to identify where the fee simple holder's rights to the heavens end. Water is a bit more defined – it is common until captured.[7]"
+  },
+  {
+    "term": "res derelictae",
+    "literal_translation": "abandoned goods",
+    "definition": "Material property abandoned by its owner"
+  },
+  {
+    "term": "res ipsa loquitur",
+    "literal_translation": "the thing speaks for itself",
+    "definition": "The principle that the occurrence of an accident implies negligence. This principle allows the elements of duty of care, breach, and causation to be inferred from an injury that does not ordinarily occur without negligence."
+  },
+  {
+    "term": "res gestae",
+    "literal_translation": "a thing done",
+    "definition": "Differing meaning depending on what type of law is involved. May refer to the complete act of a felony, from start to finish, or may refer to statements given that may be exempt from hearsay rules."
+  },
+  {
+    "term": "res judicata",
+    "literal_translation": "a matter judged",
+    "definition": "A matter that has been finally adjudicated, meaning no further appeals or legal actions by the involved parties is now possible."
+  },
+  {
+    "term": "res nova",
+    "literal_translation": "a new thing",
+    "definition": "A question of law on which no court has previously ruled, or a factual situation about which no court has previously ruled; a legal case without a precedent"
+  },
+  {
+    "term": "res nullius",
+    "literal_translation": "nobody's thing",
+    "definition": "Ownerless property or goods. Such property or goods are able and subject to being owned by anybody."
+  },
+  {
+    "term": "res publica",
+    "literal_translation": "public affair",
+    "definition": "All things subject to concern by the citizenry. The root of the word republic."
+  },
+  {
+    "term": "respondeat superior",
+    "literal_translation": "Let the master answer.",
+    "definition": "A concept that the master (e.g. employer) is responsible for the actions of his subordinates (e.g. employees)."
+  },
+  {
+    "term": "scandalum magnatum",
+    "literal_translation": "scandal of the magnates",
+    "definition": "Defamation against a peer in British law. Now repealed as a specific offense."
+  },
+  {
+    "term": "scienter",
+    "literal_translation": "knowingly",
+    "definition": "Used when offenses or torts were committed with the full awareness of the one so committing."
+  },
+  {
+    "term": "scire facias",
+    "literal_translation": "Let them know.",
+    "definition": "A writ, directing local officials to officially inform a party of official proceedings concerning them."
+  },
+  {
+    "term": "scire feci",
+    "literal_translation": "I have made known.",
+    "definition": "The official response of the official serving a writ of scire facias, informing the court that the writ has been properly delivered."
+  },
+  {
+    "term": "secundum formam statuti",
+    "literal_translation": "According to the form of the statute.",
+    "definition": null
+  },
+  {
+    "term": "se defendendo",
+    "literal_translation": "self-defense",
+    "definition": "The act of defending one's own person or property, or the well-being or property of another."
+  },
+  {
+    "term": "seriatim",
+    "literal_translation": "in series",
+    "definition": "Describes the process in which the court hears assorted matters in a specific order. Also refers to an occasion where a multiple-judge panel will issue individual opinions from the members, rather than a single ruling from the entire panel."
+  },
+  {
+    "term": "sine die",
+    "literal_translation": "without day",
+    "definition": "Used when the court is adjourning without specifying a date to re-convene. See also adjournment sine die."
+  },
+  {
+    "term": "sine qua non",
+    "literal_translation": "without which, nothing",
+    "definition": "Refers to some essential event or action, without which there can be no specified consequence."
+  },
+  {
+    "term": "situs",
+    "literal_translation": "the place",
+    "definition": "Used to refer to laws specific to the location where specific property exists, or where an offense or tort was committed."
+  },
+  {
+    "term": "stare decisis",
+    "literal_translation": "to stand by [things] decided",
+    "definition": "The obligation of a judge to stand by a prior precedent."
+  },
+  {
+    "term": "status quo",
+    "literal_translation": null,
+    "definition": "In contract law, in a case of innocent representation, the injured party is entitled to be replaced in statu quo. Note the common usage is status quo from the Latin status quo ante, the \"state in which before\" or \"the state of affairs that existed previously.\"[10]"
+  },
+  {
+    "term": "status quo ante",
+    "literal_translation": "the state in which",
+    "definition": "In contract law, in a case of innocent representation, the injured party is entitled to be replaced in statu quo. Note the common usage is status quo from the Latin status quo ante, the \"state in which before\" or \"the state of affairs that existed previously.\"[10]"
+  },
+  {
+    "term": "statu quo",
+    "literal_translation": null,
+    "definition": "In contract law, in a case of innocent representation, the injured party is entitled to be replaced in statu quo. Note the common usage is status quo from the Latin status quo ante, the \"state in which before\" or \"the state of affairs that existed previously.\"[10]"
+  },
+  {
+    "term": "stratum",
+    "literal_translation": "a covering, from neuter past participle of sternere, to spread",
+    "definition": "1) In property law, condominiums has said to occupy stratum many stories about the ground.[7] 2) Stratum can also be a societial level made up of individuals with similar status of social, cultural or economic nature. 3) Stratum can refer to classification in an organized system along the lines of layers, levels, divisions, or similar grouping."
+  },
+  {
+    "term": "sua sponte",
+    "literal_translation": "of its own accord",
+    "definition": "Some action taken by the public prosecutor or another official body, without the prompting of a plaintiff or another party. (compare ex proprio motu, ex mero motu which are used for courts)."
+  },
+  {
+    "term": "sub judice",
+    "literal_translation": "under the judge",
+    "definition": "Refers to a matter currently being considered by the court."
+  },
+  {
+    "term": "sub modo",
+    "literal_translation": "subject to modification",
+    "definition": "Term in contract law that allows limited modifications to a contract after the original form has been agreed to by all parties."
+  },
+  {
+    "term": "sub nomine",
+    "literal_translation": "under the name",
+    "definition": "Abbreviated sub nom.; used in case citations to indicate that the official name of a case changed during the proceedings, usually after appeal (e.g., rev'd sub nom. and aff'd sub nom.)"
+  },
+  {
+    "term": "sub silentio",
+    "literal_translation": "under silence",
+    "definition": "A ruling, order, or other court action made without specifically stating the ruling, order, or action. The effect of the ruling or action is implied by related and subsequent actions, but not specifically stated."
+  },
+  {
+    "term": "subpoena",
+    "literal_translation": "under penalty",
+    "definition": "A writ compelling testimony, the production of evidence, or some other action, under penalty for failure to do so."
+  },
+  {
+    "term": "subpoena ad testificandum",
+    "literal_translation": "under penalty to be witnessed",
+    "definition": "An order compelling an entity to give oral testimony in a legal matter."
+  },
+  {
+    "term": "subpoena duces tecum",
+    "literal_translation": "bring with you under penalty",
+    "definition": "An order compelling an entity to produce physical evidence or witness in a legal matter."
+  },
+  {
+    "term": "suggestio falsi",
+    "literal_translation": "false suggestion",
+    "definition": "A false statement made in the negotiation of a contract."
+  },
+  {
+    "term": "sui generis",
+    "literal_translation": "of its own kind/genus",
+    "definition": "Something that is unique amongst a group."
+  },
+  {
+    "term": "sui juris",
+    "literal_translation": "of his own right",
+    "definition": "Refers to one legally competent to manage his own affairs. Also spelled sui iuris."
+  },
+  {
+    "term": "suo motu",
+    "literal_translation": "of its own motion",
+    "definition": "Refers to a court or other official agency taking some action on its own accord (synonyms: ex proprio motu, ex mero motu). Similar to sua sponte."
+  },
+  {
+    "term": "supersedeas",
+    "literal_translation": "refrain from",
+    "definition": "A bond tendered by an appellant as surety to the court, requesting a delay of payment for awards or damages granted, pending the outcome of the appeal."
+  },
+  {
+    "term": "suppressio veri",
+    "literal_translation": "suppression of the truth",
+    "definition": "Willful concealment of the truth when bound to reveal it, such as withholding details of damage from an auto accident from a prospective buyer of the car in that accident."
+  },
+  {
+    "term": "supra",
+    "literal_translation": "above",
+    "definition": "Used in citations to refer to a previously cited source."
+  },
+  {
+    "term": "terra nullius",
+    "literal_translation": "no one's land",
+    "definition": "Land that has never been part of a sovereign state, or land which a sovereign state has relinquished claim to."
+  },
+  {
+    "term": "trial de novo",
+    "literal_translation": "trial anew",
+    "definition": "A completely new trial of a matter previously judged. It specifically refers to a replacement trial for the previous one, and not an appeal of the previous decision."
+  },
+  {
+    "term": "trinoda necessitas",
+    "literal_translation": "three-knotted need",
+    "definition": "Refers to a threefold tax levied on Anglo-Saxon citizens to cover roads, buildings, and the military."
+  },
+  {
+    "term": "uberrima fides",
+    "literal_translation": "most abundant faith",
+    "definition": "Concept in contract law specifying that all parties must act with the utmost good faith."
+  },
+  {
+    "term": "ubi eadem ratio, ibi idem jus",
+    "literal_translation": "where there is the same reason there is the same law; [14] like reason doth make like law. [15]",
+    "definition": "See the judgment of Lord Holt CJ in Ashby v White."
+  },
+  {
+    "term": "ubi jus ibi remedium",
+    "literal_translation": "wherever a right exists there is also a remedy",
+    "definition": "See the judgment of Lord Holt CJ in Ashby v White [16][17] Some legal scholars find it reflected in the Due Process Clause of the Fourteenth Amendment to the United States Constitution. [18]"
+  },
+  {
+    "term": "ultra vires",
+    "literal_translation": "beyond the powers",
+    "definition": "An act that requires legal authority to perform, but which is done without obtaining that authority."
+  },
+  {
+    "term": "universitas personarum",
+    "literal_translation": "totality of people",
+    "definition": "Aggregate of people, body corporate, as in a college, corporation, or state"
+  },
+  {
+    "term": "universitas rerum",
+    "literal_translation": "totality of things",
+    "definition": "Aggregate of things."
+  },
+  {
+    "term": "uno flatu",
+    "literal_translation": "in one breath",
+    "definition": "Used to criticize inconsistencies in speech or testimony, as in: one says one thing, and in the same breath, says another contradictory thing."
+  },
+  {
+    "term": "uti possidetis",
+    "literal_translation": "as you possess",
+    "definition": "Ancient concept regarding conflicts, wherein all property possessed by the parties at the conclusion of the conflict shall remain owned by those parties unless treaties to the contrary are enacted."
+  },
+  {
+    "term": "uxor",
+    "literal_translation": "wife",
+    "definition": "Used in documents in place of the wife's name. Usually abbreviated et ux."
+  },
+  {
+    "term": "vel non",
+    "literal_translation": "or not",
+    "definition": "Used when considering whether some event or situation is either present or it is not."
+  },
+  {
+    "term": "veto",
+    "literal_translation": "forbid",
+    "definition": "The power of an executive to prevent an action, especially the enactment of legislation."
+  },
+  {
+    "term": "vice versa",
+    "literal_translation": "the other way around",
+    "definition": "Something that is the same either way."
+  },
+  {
+    "term": "vide",
+    "literal_translation": "see",
+    "definition": "Used in citations to refer the reader to another location."
+  },
+  {
+    "term": "videlicet",
+    "literal_translation": "contraction of videre licet, meaning \"it is permitted to see\"",
+    "definition": "Used in documents to mean \"namely\" or \"that is\". Usually abbreviated viz."
+  },
+  {
+    "term": "viz.",
+    "literal_translation": "abbreviation of videlicet",
+    "definition": "Namely."
+  },
+  {
+    "term": "vigilantibus non dormientibus iura subveniunt",
+    "literal_translation": "The laws benefit those who are vigilant rather than those who sleep.",
+    "definition": null
+  },
+  {
+    "term": "accessio",
+    "literal_translation": "something added",
+    "definition": "Accession, i.e. mode of acquisition by creation in which labor and other goods are added to property in such a manner that the identity of the original property is not lost (vs. commixtio, specificatio)"
+  },
+  {
+    "term": "accidentalia negotii",
+    "literal_translation": "business incidentals",
+    "definition": "Ancillary terms and conditions; express contractual terms that are purely voluntary, optional, and not necessitated by the contract's subject matter. Also called incidentalia (Roman-Dutch law). One of three types of contractual terms, the others being essentialia negotii 'core terms' and naturalia negotii 'implied terms'."
+  },
+  {
+    "term": "actus iuridicus",
+    "literal_translation": "legal act",
+    "definition": "1. In French-law-based systems, refers only to those sources of subjective law that are human-made and voluntary (vs. factum iuridicum); 2. In German-law-based systems, encompasses all sources of subjective law, be they human-made or not, voluntary or not. See also negotium iuridicum."
+  },
+  {
+    "term": "ad quantitatem",
+    "literal_translation": "by the quantity",
+    "definition": "itemized, e.g. sale ad quantitatem = item sale (e.g. 100 carp, 10,000 lbs. of sugar, 10 casks of corn) (vs. per aversionem)"
+  },
+  {
+    "term": "aditio hereditatis",
+    "literal_translation": "hereditary approach",
+    "definition": "Entering into the inheritance, i.e. vesting of the inheritance in an heir or will beneficiary. See delatio hereditatis."
+  },
+  {
+    "term": "aliquid novi",
+    "literal_translation": "something new",
+    "definition": "The new element or aspect of a novation (vs. idem debitum). Also known as novum."
+  },
+  {
+    "term": "casum sentit dominus",
+    "literal_translation": "accident is felt by the owner",
+    "definition": "The owner who has to assume the risk of accidental harm to him or accidental loss to his property."
+  },
+  {
+    "term": "casus fortuitus",
+    "literal_translation": "fortuitous event",
+    "definition": "Force majeure arising from a human-made inevitable accident (e.g. riots, strikes, civil war); ex: When H.M.S. Bounty was destroyed by Hurricane Sandy, October 29, 2012, casus fortuitus would describe the H.M.S. Bounty being at the wrong place when Hurricane Sandy came up the coast. Compare vis maior (see below)."
+  },
+  {
+    "term": "cautio de restituendo",
+    "literal_translation": "guarantee to reinstate",
+    "definition": "Security or guarantee that heirs must provide in a case where an absent person's estate is divided among them (insurance law)"
+  },
+  {
+    "term": "cessio",
+    "literal_translation": "yielding",
+    "definition": "Assignment, that is, the transfer of rights or benefits. Parties: cedens 'cedent' (= assignor) cessionarius 'cessionary, cessionee' (= assignee) debitor cessus 'third-party obligor' Types: cessio in anticipando - assignment of future right or benefit cessio in securitatem debiti - assignment of a principal debt (right of action) as security for the due performance of another debt (the secured debt)"
+  },
+  {
+    "term": "collatio bonorum",
+    "literal_translation": "bringing together of goods",
+    "definition": "Hotchpot. Also called collatio inter liberos (Scots law)."
+  },
+  {
+    "term": "commixtio",
+    "literal_translation": "commingling",
+    "definition": "Confusion, i.e. acquisition by creation in which fungible solid or liquid goods (and no labor) of different owners intermingle in such a way that the mixture creates a new thing and can no longer be separately identified, it is owned by the owners in co-ownership (vs. accessio, specificatio)"
+  },
+  {
+    "term": "commodatum",
+    "literal_translation": "accommodation",
+    "definition": "Loan for use, i.e. bailment of movable property that is not perishable or consumable to be returned without payment. Parties: commodans 'lender' commodatarius 'borrower'"
+  },
+  {
+    "term": "communio bonorum",
+    "literal_translation": "community of goods",
+    "definition": "The aggregate of marital property (or marital estate) under a community property matrimonial regime."
+  },
+  {
+    "term": "compensatio",
+    "literal_translation": "balancing of accounts",
+    "definition": "Set-off. Type: compensatio lucri cum damno - set-off of profit and loss"
+  },
+  {
+    "term": "compensatio morae",
+    "literal_translation": "balance of delay",
+    "definition": "Delay in payment or performance on the part of both the debtor and the creditor."
+  },
+  {
+    "term": "confusio",
+    "literal_translation": "melting together",
+    "definition": "Merger of counterparty rights in the same person (e.g. debtor-creditor, buyer-seller, landlord-tenant, etc.), thereby extinguishing an obligation or right. Adverb: confusione."
+  },
+  {
+    "term": "conjunctissimus",
+    "literal_translation": "the most joined",
+    "definition": "Next-of-kin. Plural conjunctissimi."
+  },
+  {
+    "term": "contra bonos mores",
+    "literal_translation": "against good morals",
+    "definition": "Contracts so made are generally illegal and unenforceable."
+  },
+  {
+    "term": "culpa",
+    "literal_translation": "guilt",
+    "definition": "Unintentional negligence (in tort). Degrees: culpa lata - gross negligence culpa levis - ordinary negligence culpa levissima - slight negligence"
+  },
+  {
+    "term": "cum beneficio inventarii",
+    "literal_translation": "under benefit of inventory",
+    "definition": "As in an heir cum beneficio inventarii, who accepts his/her share in a deceased's estate after having had an appraisal and estate inventory drawn up, thereby separating their share from the whole and limiting their liability."
+  },
+  {
+    "term": "cum onere",
+    "literal_translation": "with burdens",
+    "definition": "(Louisiana law) as encumbered, i.e. alienated with the encumbrances running with the land."
+  },
+  {
+    "term": "cura",
+    "literal_translation": "guardianship",
+    "definition": "Curatorship, i.e. legal guardianship under which the ward is totally and permanently incapable. Compare tutela. Parties are: curandus - ward curator - guardian (see below)"
+  },
+  {
+    "term": "curator",
+    "literal_translation": "guardian",
+    "definition": "Guardian under a curatorship (cura). Types are: curator ad litem - guardian ad litem curator bonis - guardian of the property curator personae - guardian of the person"
+  },
+  {
+    "term": "damnum emergens",
+    "literal_translation": "emergent loss",
+    "definition": "Loss actually incurred because of a contractual breach"
+  },
+  {
+    "term": "damnum et interesse",
+    "literal_translation": "damage and interests",
+    "definition": "Tortious damages, damages in tort"
+  },
+  {
+    "term": "data certa",
+    "literal_translation": "certain date",
+    "definition": "Fixed effective date of a contract, i.e. one that cannot be ante- or post-dated"
+  },
+  {
+    "term": "datio in solutum",
+    "literal_translation": "giving in payment",
+    "definition": "Species of accord and satisfaction by transfer or assignment of property in lieu of money; kind of in-kind payment, as opposed to a money payment"
+  },
+  {
+    "term": "de cujus",
+    "literal_translation": "(s)he for whom...",
+    "definition": "The deceased, decedent. Short for de cujus successione agitur."
+  },
+  {
+    "term": "delatio hereditatis",
+    "literal_translation": "hereditary transferral",
+    "definition": "Falling open of succession. See aditio hereditatis."
+  },
+  {
+    "term": "domicilium citandi et executandi",
+    "literal_translation": "domicile for summoning and carrying out",
+    "definition": "Address for service or notices (e.g. for contractual purposes)."
+  },
+  {
+    "term": "dominium plurium in solidum",
+    "literal_translation": "plural, joint and several ownership",
+    "definition": "Joint tenancy."
+  },
+  {
+    "term": "dominium pro parte pro indiviso",
+    "literal_translation": "unpartitioned and undivided ownership",
+    "definition": "Tenancy in common. The types are: communio pro indiviso (aka communio pro partibus indivisis) - unilaterally partitionable communio incidens - arising by operation of law, e.g. indivision (succession), party walls, common areas of a condominium communio voluntaria - arising by agreement, e.g. marital estate (community property), company/partnership property communio pro diviso - all parties must agree to partition"
+  },
+  {
+    "term": "dominus litis",
+    "literal_translation": "master of the case",
+    "definition": "Litigant, the client in a lawsuit, as opposed to the lawyer."
+  },
+  {
+    "term": "error in iudicando",
+    "literal_translation": "error in judgment (in court)",
+    "definition": "Error of fact and reasoning (vs. error in procedendo)"
+  },
+  {
+    "term": "error in procedendo",
+    "literal_translation": "procedural error (in court)",
+    "definition": "Error on a point of law or procedure (vs. error in iudicando)"
+  },
+  {
+    "term": "essentialia negotii",
+    "literal_translation": "business essentials",
+    "definition": "Express or implied contractual terms that are required either by law or by the contract's subject matter. One of three types of contractual terms, the others being accidentialia negotii and naturalia negotii."
+  },
+  {
+    "term": "ex intervalo temporis",
+    "literal_translation": null,
+    "definition": "Not all at once, in parts (vs. uno contextu)."
+  },
+  {
+    "term": "ex propriis sensibus",
+    "literal_translation": "with one's own senses",
+    "definition": "Used for firsthand testimony, e.g. testimony ex propriis sensibus (vs. per relationem)."
+  },
+  {
+    "term": "factum iuridicum",
+    "literal_translation": "legal fact",
+    "definition": "In French-law-based systems, refers to those sources of subjective law that are either not human-made or human-made but involuntary (vs. actus iuridicus)."
+  },
+  {
+    "term": "falsus procurator",
+    "literal_translation": "fake agent",
+    "definition": "Agent de son tort, officious agent"
+  },
+  {
+    "term": "fideicommissum",
+    "literal_translation": "entrusting to (a person's) good faith.",
+    "definition": "Testamentary trust; a form of substitution (called 'fideicommissary substitution') in which a will beneficiary is instructed in the will to transfer the testamentary gift in whole or part to a third party. A fideicommissum is created either expressly in a will or impliedly through a si sine liberis decesserit clause or through a prohibition against alienation in the will.[19] Parties: fideicommittens 'grantor' (= testator) fiduciarius 'fiduciary' (= trustee) fideicommissarius 'fideicommissary' (= beneficiary) Types: fideicommissum simplex - one 'gift-over' to single beneficiary fideicommissum multiplex - multiple gift-overs to a succession of beneficiaries fideicommissum residui - fiduciary can alienate 3/4 of assets"
+  },
+  {
+    "term": "fideiussio",
+    "literal_translation": null,
+    "definition": "Suretyship."
+  },
+  {
+    "term": "fructus industriales",
+    "literal_translation": "industrial fruits",
+    "definition": "Emblements; in property law, a co-owner profiting from her or his fructus industriales is solely responsible for any losses that my occur.[7] (vs. fructus naturales, see below)."
+  },
+  {
+    "term": "fructus naturales",
+    "literal_translation": "natural fruits",
+    "definition": "Vegetation naturally growing from old roots (as pasturage) or from trees (as timber or fruit) (vs. fructus industriales, see above)."
+  },
+  {
+    "term": "hereditas iacens",
+    "literal_translation": "lying inheritance",
+    "definition": "Estate of inheritance before vesting in heirs"
+  },
+  {
+    "term": "heres",
+    "literal_translation": null,
+    "definition": "Heir. Plural heredes. Types: heredes proximi - closest heirs sui heredes necessarii - forced heirs (singular suus heres necessarius)"
+  },
+  {
+    "term": "hypotheca",
+    "literal_translation": null,
+    "definition": "Mortgage"
+  },
+  {
+    "term": "idem debitum",
+    "literal_translation": "same debt",
+    "definition": "The element or aspect of the novation that does not change (vs. aliquid novi)"
+  },
+  {
+    "term": "in casu",
+    "literal_translation": "in the case",
+    "definition": "In the instant case; used when referring to the matter before the court in a case being discussed"
+  },
+  {
+    "term": "in solidum",
+    "literal_translation": "for the whole",
+    "definition": "Jointly and severally; short for singuli et in solidum. Where a group of persons share liability for a debt, such as co-signers to a loan, the debtor can sue a single party in solidum, that is jointly and severally, to recover the entire amount owed."
+  },
+  {
+    "term": "inaedificatio",
+    "literal_translation": "building",
+    "definition": "Attachment of movables to land, accession by building"
+  },
+  {
+    "term": "inaudita altera parte",
+    "literal_translation": "without hearing the other party",
+    "definition": "Equivalent of common law ex parte, especially in the context of submitting a motion, brief, or obtaining relief as fast as possible"
+  },
+  {
+    "term": "incapax",
+    "literal_translation": "incapable",
+    "definition": "(Scots law) person not having capacity (mental, legal, or otherwise)."
+  },
+  {
+    "term": "indignus (heres)",
+    "literal_translation": "unworthy heir",
+    "definition": "Unworthy beneficiary or heir, who is precluded from inheriting because his conduct makes him unworthy, in a legal sense, to take in the deceased's estate."
+  },
+  {
+    "term": "infans",
+    "literal_translation": "infant",
+    "definition": "(Roman-Dutch law) child of 7 years or younger and who therefore has very limited legal capacity. Plural infantes."
+  },
+  {
+    "term": "invecta et illata",
+    "literal_translation": "brought in and carried out",
+    "definition": "Tenant's things brought into the leased premises for his/her temporary use"
+  },
+  {
+    "term": "iudex ad quem",
+    "literal_translation": null,
+    "definition": "Appellate court or court of last resort (vs. iudex a quo)"
+  },
+  {
+    "term": "iudex a quo",
+    "literal_translation": null,
+    "definition": "Lower court from which an appeal originates; originating court (vs. iudex ad quem)"
+  },
+  {
+    "term": "iura novit curia",
+    "literal_translation": "the court knows the law",
+    "definition": "The principle that the parties to a legal dispute do not need to plead or prove the law that applies to their case."
+  },
+  {
+    "term": "ius accrescendi",
+    "literal_translation": "right of accrual",
+    "definition": "(Civil law) Accretion, i.e. right of a will beneficiary to succeed proportionately to a testamentary gift that another beneficiary in the same will cannot or does not want to take."
+  },
+  {
+    "term": "ius commune",
+    "literal_translation": "common law",
+    "definition": "Not actually referring to common law; this term refers to common doctrine and principles of civil law that underlie all aspects of civilian legal systems and that formed the basis of medieval Roman law."
+  },
+  {
+    "term": "ius persequendi",
+    "literal_translation": "right of following",
+    "definition": "Right of pursuit, i.e. the creditor's right to pursue a debt that runs with the land into the hands of a bona fide purchaser"
+  },
+  {
+    "term": "ius praeferendi",
+    "literal_translation": "right of preferring",
+    "definition": "Priority right or preferential right, i.e. a creditor's right to rank higher relative to another"
+  },
+  {
+    "term": "ius quaesitum tertio",
+    "literal_translation": "right to third-party relief",
+    "definition": "Right of a third-party beneficiary to sue in order to enforce a third-party contract, i.e. the opposite of privity of contract."
+  },
+  {
+    "term": "ius retentionis",
+    "literal_translation": "right of retaining",
+    "definition": "Lien (possessory)"
+  },
+  {
+    "term": "jus variandi",
+    "literal_translation": "right of varying",
+    "definition": "Free choice of court actions where concurrent actions lie, e.g. tort and criminal, or tort and breach of contract."
+  },
+  {
+    "term": "laesio enormis",
+    "literal_translation": "unusual injury",
+    "definition": "Lesion, i.e. excessive loss or injury used as grounds for setting aside a contract. Lesion beyond moiety (laesio ultra dimidium) is the standard in French-law-based systems; sold for less than half its value or purchased for more than double."
+  },
+  {
+    "term": "lex commissoria",
+    "literal_translation": "cancelling law",
+    "definition": "Forfeiture clause for nonperformance of a contract, especially (1) a provision that a pledge shall be forfeited if a loan is defaulted, or (2) a condition that money paid on a contract of sale shall be forfeited and the sale rescinded if outstanding payments are defaulted. Also known as a pactum commissorium."
+  },
+  {
+    "term": "liberandi causa",
+    "literal_translation": "liberating cause",
+    "definition": "As in 'prescription liberandi causa', i.e. liberative prescription (aka extinctive prescription), which is the civilian equivalent of a statutory limitation period."
+  },
+  {
+    "term": "locatio conductio",
+    "literal_translation": "leasing (and) hiring",
+    "definition": "Hire or rental. Types: locatio conductio operarum - employment, indentured servitude, and master/slave relationship locatio conductio operis - hire of service provider or independent contractor locatio conductio rei - rental or letting of property"
+  },
+  {
+    "term": "lucrum cessans",
+    "literal_translation": "ceasing profit",
+    "definition": "Prospective damages or loss of profits that would, because of the contractual breach, have been made in the future"
+  },
+  {
+    "term": "mandatum",
+    "literal_translation": "mandate",
+    "definition": "Bilateral agreement for direct representation between a principal and agent. Compare procuratio. Parties: mandatarius 'agent' mandator 'principal'"
+  },
+  {
+    "term": "monstrum",
+    "literal_translation": "monster",
+    "definition": "Child born with severe deformities. Plural monstra."
+  },
+  {
+    "term": "mora accipiendi",
+    "literal_translation": "delay of the one receiving",
+    "definition": "Delay in payment or performance on the part of the creditor or obligor. Also known as mora creditoris."
+  },
+  {
+    "term": "mora solvendi",
+    "literal_translation": "delay of the one paying",
+    "definition": "Delay in payment or performance on the part of the debtor or the obligee. Also known as mora debitoris. 2 forms: mora solvendi ex re - delay in giving or delivering a thing; mora solvendi ex personae - delay in obligations to do or perform personal service."
+  },
+  {
+    "term": "mutuum",
+    "literal_translation": "loan",
+    "definition": "Loan for consumption, i.e. bailment of fungible movable property that is to be returned in kind in the same quantity and quality. Parties: mutuum dans (aka mutuans) 'lender' mutuum accipiens (aka mutuarius) 'borrower'"
+  },
+  {
+    "term": "naturalia negotii",
+    "literal_translation": "business naturals",
+    "definition": "Express or implied contractual terms that go to the root of a contract's subject matter. One of three types of contractual terms, the others being accidentialia negotii and essentalia negotii."
+  },
+  {
+    "term": "nec vi, nec clam, nec precario",
+    "literal_translation": "Without force, without secrecy, without permission",
+    "definition": "Peacefully, openly, and with the intention to acquire ownership; applies to acquisitive prescription"
+  },
+  {
+    "term": "negotiorum gestio",
+    "literal_translation": "management of affairs",
+    "definition": "Quasi-contractual obligation arising from benevolent or necessitous intermeddling, obliging the benefited party (dominus negotii) to reimburse the intermeddler (gestor) for the cost that was used in doing good works."
+  },
+  {
+    "term": "negotium iuridicum",
+    "literal_translation": "legal business",
+    "definition": "1. In French-law-based systems, refers to the legal operation, activity, or fact embodied or memorialized by a legal instrument (as opposed to the instrument itself, known as an instrumentum); 2. In German-law-based systems, refers to a transactional act, the main sub-type of legal acts. See also actus iuridicus."
+  },
+  {
+    "term": "non bis in idem",
+    "literal_translation": "not twice in the same",
+    "definition": "Prohibition against double jeopardy. A legal action cannot be brought twice for the same act or offense."
+  },
+  {
+    "term": "novum iudicium",
+    "literal_translation": "new judgment",
+    "definition": "Appeal by way of hearing de novo, i.e. the case is retried with no restrictions of scope: errors of law are reviewed and new findings of fact are made. (vs. revisio prioris instantiae)"
+  },
+  {
+    "term": "nudum praeceptum",
+    "literal_translation": "naked precept",
+    "definition": "If a testator places a prohibition on a testamentary gift but fails to say what should happen to the gift if the prohibition is contravened, the prohibition is said to be 'nude', i.e. a nudum praeceptum. In other words, the prohibition is of no effect, and the beneficiary will take the gift free from any restrictions."
+  },
+  {
+    "term": "pactum de contrahendo",
+    "literal_translation": "agreement to contract",
+    "definition": "Prior contract aimed at concluding another contract, known as the parent or principal contract. Includes binders (in real estate sales), such as a purchase offer or an option to sell."
+  },
+  {
+    "term": "pactum de non cedendo",
+    "literal_translation": "agreement to not yield",
+    "definition": "Anti-assignment clause"
+  },
+  {
+    "term": "pactum de non petendo (in anticipando)",
+    "literal_translation": "agreement to not sue",
+    "definition": "Agreement in which one party agrees not to sue the other."
+  },
+  {
+    "term": "pactum de retrovendendo",
+    "literal_translation": "agreement to sell back",
+    "definition": "Contract of sale with right of repurchase"
+  },
+  {
+    "term": "pactum reservati dominii",
+    "literal_translation": "agreement of reserved owners",
+    "definition": "Reservation of title"
+  },
+  {
+    "term": "pactum successorium",
+    "literal_translation": "inheritance agreement",
+    "definition": "Bilateral contract concerning succession, usually made between a potential testator (future decedent) and his/her heir. Plural pacta successoria. The most common forms are: pactum renunciativum (aka pactum de non succedendo) - (contractual) disclaimer of interest pactum acquisitivum (aka pactum conservandae successionis) - (contractual) deed of variation pactum de hereditate tertii viventis - family settlement agreement."
+  },
+  {
+    "term": "pars dominii",
+    "literal_translation": "ownership part",
+    "definition": "The major interests in the bundle of rights making up ownership. In French-based systems there are three, being usus (aka ius utendi), fructus (aka ius fruendi), and abusus (aka ius abutendi). In German-based systems there are more, usually ius possidendi 'owner's right to possess', ius utendi fruendi 'right of use and enjoyment', ius abutendi 'right to consume', ius disponendi 'right of disposal', ius prohibendi 'right of exclusion', and ius vindicandi 'right to recover or reclaim'."
+  },
+  {
+    "term": "paterfamilias",
+    "literal_translation": "father of the family",
+    "definition": "The head of household, for purposes of considering the rights and responsibilities thereof. (Civil law) bonus paterfamilias: a standard of care equivalent to the common law ordinary reasonable man. Other degrees of care are: diligens paterfamilias - higher standard of care, greater diligence; diligentissimus paterfamilias - highest standard of care, utmost diligence."
+  },
+  {
+    "term": "penitus extraneus",
+    "literal_translation": "outside penitent",
+    "definition": "Incidental beneficiary or any outside party to a third-party contract (see stipulatio alteri). Plural penitus extranei."
+  },
+  {
+    "term": "per aversionem",
+    "literal_translation": "by turning away",
+    "definition": "(1) description, whereby the surrounding property is used to provide the legal description of the boundaries of the property; (2) sale per aversionem = bulk sale (a flock of sheep for $100 - the number of sheep are uncounted) (vs. ad quantitatem)"
+  },
+  {
+    "term": "per relationem",
+    "literal_translation": "by relation",
+    "definition": "Hearsay; used for secondhand, indirect evidence, e.g. testimony per relationem 'hearsay testimony' (vs. ex propriis sensibus). Also called de auditu."
+  },
+  {
+    "term": "pignus",
+    "literal_translation": "pledge",
+    "definition": "Pledge, i.e. a possessory security interest"
+  },
+  {
+    "term": "pleno iure",
+    "literal_translation": "by full right",
+    "definition": "Self-executing, without need of a court order or judicial proceedings; with full right or authority. Ex: null pleno iure."
+  },
+  {
+    "term": "plus quam tolerabile",
+    "literal_translation": "more than tolerable",
+    "definition": "Excessive, intolerable; in reference to a nuisance or some other violation of neighbor law."
+  },
+  {
+    "term": "praedium",
+    "literal_translation": "estate",
+    "definition": "Landed property, tenement of land, especially with respect to an easement (servitude). 2 types: praedium dominans - dominant estate (aka dominant tenement) praedium serviens - servient estate (aka servient tenement)"
+  },
+  {
+    "term": "praeemptio",
+    "literal_translation": "previous purchase",
+    "definition": "Right of first refusal"
+  },
+  {
+    "term": "praesumptio",
+    "literal_translation": "presumption",
+    "definition": "Legal presumption. Types: praesumptio iuris tantum - rebuttable presumption praesumptio iuris et de iure - irrebuttable or conclusive presumption"
+  },
+  {
+    "term": "praesumptio innocentiae",
+    "literal_translation": "Presumption of innocence",
+    "definition": null
+  },
+  {
+    "term": "praesumptio veritatis et solemnitatis",
+    "literal_translation": "presumption of truth and solemnity",
+    "definition": "Presumption of regularity, which attaches to public instruments admissible to prove the truth of their contents."
+  },
+  {
+    "term": "pretium pro doloribus",
+    "literal_translation": "price for pain",
+    "definition": "Solatium."
+  },
+  {
+    "term": "prior tempore potior iure",
+    "literal_translation": "earlier in time, stronger in law",
+    "definition": "(Scots law, civil law), usually translated as \"prior in time, superior in right\", the principle that someone who registers (a security interest) earlier therefore ranks higher than other creditors."
+  },
+  {
+    "term": "probatio",
+    "literal_translation": null,
+    "definition": "Evidence (admissible in a court of law), especially documentary evidence. Types: adminiculum (probationis) 'adminicular evidence' - evidence adduced in aid or support of other evidence, which without it is imperfect semiplena probatio, probatio semiplena 'half proof, imperfect proof' - executed in presence of 1 or no witnesses; includes private instruments plena probatio, probatio plena 'full proof, perfect proof' - executed in presence of 2 witnesses; includes public instruments probatio probatissima - the highest evidence, referring to testimony under oath (received into common law but not civil law)"
+  },
+  {
+    "term": "procuratio",
+    "literal_translation": "management",
+    "definition": "Power of attorney, i.e. a unilateral grant of indirect representation by a principal to an attorney-in-fact. Compare mandatum."
+  },
+  {
+    "term": "procurator",
+    "literal_translation": null,
+    "definition": "Agent, attorney-in-fact. Types: procurator ad causas - attorney employed to assist a litigant in the conduct of his lawsuit procurator ad negotia - attorney assisting his client in transacting other business procurator in rem suam - holder of an irrevocable power of attorney"
+  },
+  {
+    "term": "quaestus liberales",
+    "literal_translation": null,
+    "definition": "Liberal profession"
+  },
+  {
+    "term": "restitutio in integrum",
+    "literal_translation": "total reinstatement",
+    "definition": "(1) Restoration of something, such as a building or damaged property, to its original condition. (2) In contract law, when considering breach of contract and remedies, to restore a party to an original position. [10]"
+  },
+  {
+    "term": "revisio prioris instantiae",
+    "literal_translation": "review of the court below",
+    "definition": "Appeal by way of re-hearing or pure appeal (aka appeal stricto sensu); the scope is limited to errors of law and no new factual findings are possible; the case is traditionally remitted to the originating court below for re-judgment. (vs. novum iudicium)"
+  },
+  {
+    "term": "salva rei substantia",
+    "literal_translation": "the thing's substance intact",
+    "definition": "Limitation on how a fiduciary can use the fideicommissary assets; ultimately they must maintain their essential quality until transferred to the fideicommissary.[19] Plural salva rerum substantia. See fideicommissum."
+  },
+  {
+    "term": "servitus",
+    "literal_translation": "servitude, subjugation",
+    "definition": "Servitude, i.e. an easement. Plural servitutes. Types: servitus personarum 'personal servitude' (= easement in gross) servitus praediorum 'praedial servitude' (= easement appertunant) Sub-types: servitus itineris - ingress/egress easement servitus ne luminibus officiatur - right to light (aka solar easement) servitus non altius tollendi - restricts building beyond a certain height servitus oneris ferendi - duty to keep an adjoining wall in good repair servitus tigni immittendi - right of inserting beams in a neighbor's walls servitus viae - right-of-way"
+  },
+  {
+    "term": "si sine liberis decesserit",
+    "literal_translation": "if (he) should depart without children",
+    "definition": "Certain type of clause in a will creating a fideicommissum by imposing a condition on the will beneficiary that if (s)he dies childless, the testamentary gift will transfer to a third party. Ex: If A dies childless after my death, the farm must go to B.[19] See fideicommissum."
+  },
+  {
+    "term": "solarium",
+    "literal_translation": "area exposed to sunlight",
+    "definition": "Ground rent for a surface right or estate (superficies)."
+  },
+  {
+    "term": "solutio indebiti",
+    "literal_translation": "performance of something not due",
+    "definition": "Undue performance or payment, obliging the enrichee (accipiens) to return the undue payment or compensate the impoverishee (solvens) for the undue performance"
+  },
+  {
+    "term": "specificatio",
+    "literal_translation": null,
+    "definition": "Specification, i.e. mode of acquisition by creation wherein something new is made by adding labor (manufacturing) to property, and the non-reducible parts used for its fabrication lose their identity (vs. accessio, commixtio). The new thing is called nova species."
+  },
+  {
+    "term": "spei emptio, emptio spei",
+    "literal_translation": "sale of hope",
+    "definition": "Sale of a chance, hope, or expectancy"
+  },
+  {
+    "term": "spes futurae actionis",
+    "literal_translation": "hope of future action",
+    "definition": "Future or contingent right of action"
+  },
+  {
+    "term": "spes successionis",
+    "literal_translation": "hope of succession",
+    "definition": "Expectancy (of heirship)"
+  },
+  {
+    "term": "spoliatio",
+    "literal_translation": "plundering",
+    "definition": "Spoliation, i.e. act of unlawful dispossession of corporeal property. Parties: spoliatus - aggrieved party spoliator - dispossessor"
+  },
+  {
+    "term": "stante matrimonio",
+    "literal_translation": "During the marriage",
+    "definition": null
+  },
+  {
+    "term": "stipulatio alteri",
+    "literal_translation": "another's (contractual) provision",
+    "definition": "Third-party contract. Also known as pactum in favorem tertii (German-law-based systems). The parties are: promittens 'promisor' stipulans 'promisee'"
+  },
+  {
+    "term": "superficies",
+    "literal_translation": "surface",
+    "definition": "Surface right, surface estate. Parties: dominus soli 'subsurface owner, mineral owner' superficiarius 'surface owner'"
+  },
+  {
+    "term": "tantum et tale",
+    "literal_translation": "thus and such",
+    "definition": "(Scots law) \"as is\", to disclaim implied warranties, as in to purchase or convey something tantum et tale."
+  },
+  {
+    "term": "transactio",
+    "literal_translation": "transaction",
+    "definition": "Out-of-court settlement"
+  },
+  {
+    "term": "tutela",
+    "literal_translation": "guardianship",
+    "definition": "Tutorship, i.e. legal guardianship under which the ward is only partially or temporarily incapable. Compare cura. Parties are pupillus - ward tutor - guardian"
+  },
+  {
+    "term": "Unus testis, nullus testis",
+    "literal_translation": "one witness, no witness",
+    "definition": "The uncorroborated testimony of one witness should be discounted because it is deemed to be too unreliable to establish a fact"
+  },
+  {
+    "term": "uno contextu",
+    "literal_translation": "single joining together",
+    "definition": "Contemporaneously; when the phases of something are done without interruption or any intervening action; specifically, executed in one single execution ceremony (vs. ex intervalo temporis)"
+  },
+  {
+    "term": "usucapio",
+    "literal_translation": "seizure of use",
+    "definition": "Acquisitive prescription, i.e. the civilian equivalent of adverse possession. Also called 'prescription acquirendi causa'."
+  },
+  {
+    "term": "usufructus",
+    "literal_translation": "use-fruit",
+    "definition": "Civilian equivalent of a life estate. Parties: nudus dominus 'bare owner' (= remainderman, reversioner) usufructuarius 'usufructuary' (= life tenant)"
+  },
+  {
+    "term": "via executoria",
+    "literal_translation": "executorial way",
+    "definition": "Non-judicial foreclosure under a power of sale clause in a mortgage; more broadly, any non-judicial remedy empowered under a contractual clause or some other instrument"
+  },
+  {
+    "term": "via iure",
+    "literal_translation": "way of law",
+    "definition": "Using the courts and the justice system (opposite of self-help)"
+  },
+  {
+    "term": "vinculum iuris",
+    "literal_translation": "the chain of the law",
+    "definition": "A legal bond, especially the bond tying obligor and obligee in a legal obligation"
+  },
+  {
+    "term": "vis maior",
+    "literal_translation": "superior force",
+    "definition": "Force majeure arising from an act of God, i.e. events over which humans have no control, and so cannot be held liable. Compare casus fortuitus (see above)."
+  },
+  {
+    "term": "vitium in contrahendo",
+    "literal_translation": "vice in contracting",
+    "definition": "Vitiating factor in the formation of a contract, e.g. mistake (error), misrepresentation (dolus), and duress (metus)."
+  },
+  {
+    "term": "voluntatis declaratio",
+    "literal_translation": "Declaration of will, manifestation of intent(ion)",
+    "definition": null
+  },
+  {
+    "term": "advocatus diaboli",
+    "literal_translation": null,
+    "definition": "Official who argues against an individual's beatification"
+  },
+  {
+    "term": "de iure quaesito non tollendo",
+    "literal_translation": null,
+    "definition": "A principle referred to in papal documents such as Pope Gregory XVI's Benedictus Deus, 1834, [20] and Pope Pius X's Quae rei, 1908.[21]"
+  },
+  {
+    "term": "ebdomadarius",
+    "literal_translation": null,
+    "definition": "Person in a cathedral who supervises regular performance of religious services and assigns duties of choir members"
+  },
+  {
+    "term": "eleemosynae",
+    "literal_translation": null,
+    "definition": "Possessions of the church"
+  },
+  {
+    "term": "embryo formatus",
+    "literal_translation": null,
+    "definition": "Human embryo \"organized into human shape and endowed with a soul\"[22]"
+  },
+  {
+    "term": "embryo informatus",
+    "literal_translation": null,
+    "definition": "Human embryo before endowment with a soul[23]"
+  },
+  {
+    "term": "episcoporum ecidicus",
+    "literal_translation": null,
+    "definition": "church lawyer"
+  },
+  {
+    "term": "episcopus puerorum",
+    "literal_translation": null,
+    "definition": "\"bishop of the boys\"; a layperson who on some feastdays braided his hair, dressed as a bishop and acted in a \"ludicrous\" manner[22]"
+  },
+  {
+    "term": "excommunicato capiendo",
+    "literal_translation": null,
+    "definition": "Writ originally issued from chancery that required a sheriff to arrest and imprison an excommunicant defendant"
+  },
+  {
+    "term": "excommunicato recapiendo",
+    "literal_translation": null,
+    "definition": "Writ ordering excommunicant imprisoned for \"obstinancy\" be re-imprisoned if freed before agreeing to obey authority of church"
+  },
+  {
+    "term": "Extravagantes",
+    "literal_translation": null,
+    "definition": "Papal constitutions and decretal epistles of Pope John XXII"
+  },
+  {
+    "term": "formata",
+    "literal_translation": null,
+    "definition": "Canonical letters"
+  },
+  {
+    "term": "gardianus ecclesiae",
+    "literal_translation": null,
+    "definition": "Churchwarden"
+  },
+  {
+    "term": "legit vel non",
+    "literal_translation": null,
+    "definition": "\"Does he read or not?\"; this question was asked to church officials by secular courts when an accused defendant claimed a jurisdictional exemption under benefit of the clergy and if the church accepted the claim the official would reply legit ut clericus (\"he reads like a clerk\")"
+  },
+  {
+    "term": "acquittal",
+    "literal_translation": null,
+    "definition": "Judgment that a criminal defendant has not been proven guilty beyond a reasonable doubt."
+  },
+  {
+    "term": "affidavit",
+    "literal_translation": null,
+    "definition": "A written statement of facts confirmed by the oath of the party making it. Affidavits must be notarized or administered by an officer of the court with such authority."
+  },
+  {
+    "term": "affirmed",
+    "literal_translation": null,
+    "definition": "Judgment by appellate courts where the decree or order is declared valid and will stand as decided in the lower court."
+  },
+  {
+    "term": "Alford plea",
+    "literal_translation": null,
+    "definition": "A defendant's plea that allows him to assert his innocence but allows the court to sentence the defendant without conducting a trial. Essentially, the defendant is admitting that the evidence is sufficient to show guilt. Such a plea is often made for purposes of negotiating a deal with the prosecutor for lesser charges or a sentence."
+  },
+  {
+    "term": "allegation",
+    "literal_translation": null,
+    "definition": "Something that someone says happened."
+  },
+  {
+    "term": "answer",
+    "literal_translation": null,
+    "definition": "The formal written statement by a defendant responding to a civil complaint and setting forth the grounds for defense."
+  },
+  {
+    "term": "appeal",
+    "literal_translation": null,
+    "definition": "A request made after a trial, asking another court (usually the court of appeals) to decide whether the trial was conducted properly. To make such a request is \"to appeal\" or \"to take an appeal.\" Both the plaintiff and the defendant can appeal, and the party doing so is called the appellant. Appeals can be made for a variety of reasons including improper procedure and asking the court to change its interpretation of the law."
+  },
+  {
+    "term": "appellate",
+    "literal_translation": null,
+    "definition": "About appeals; an appellate court has the power to review the judgment of another lower court or tribunal."
+  },
+  {
+    "term": "arraignment",
+    "literal_translation": null,
+    "definition": "A proceeding in which an individual who is accused of committing a crime is brought into court, told of the charges, and asked to plead guilty or not guilty."
+  },
+  {
+    "term": "arrest warrant",
+    "literal_translation": null,
+    "definition": "A written order directing the arrest of a party. Arrest warrants are issued by a judge after a showing of probable cause."
+  },
+  {
+    "term": "bail",
+    "literal_translation": null,
+    "definition": "Security given for the release of a criminal defendant or witness from legal custody (usually in the form of money) to secure his/her appearance on the day and time appointed."
+  },
+  {
+    "term": "bankruptcy",
+    "literal_translation": null,
+    "definition": "Refers to statutes and judicial proceedings involving persons or businesses that cannot pay their debts and seek the assistance of the court in getting a fresh start. Under the protection of the bankruptcy court, debtors may discharge their debts, perhaps by paying a portion of each debt. Bankruptcy judges preside over these proceedings."
+  },
+  {
+    "term": "bench trial",
+    "literal_translation": null,
+    "definition": "Trial without a jury in which a judge decides the facts. In a jury trial, the jury decides the facts. Defendants will occasionally waive the right to a jury trial and choose to have a bench trial."
+  },
+  {
+    "term": "beyond a reasonable doubt",
+    "literal_translation": null,
+    "definition": "Standard required to convict a criminal defendant of a crime. The prosecution must prove the guilt so that there is no reasonable doubt to the jury that the defendant is guilty."
+  },
+  {
+    "term": "binding precedent",
+    "literal_translation": null,
+    "definition": "A prior decision by a court that must be followed without a compelling reason or significantly different facts or issues. Courts are often bound by the decisions of appellate courts with authority to review their decisions. For example, district courts are bound by the decisions of the court of appeals that can review their cases, and all courts—both state and federal—are bound by the decisions of the Supreme Court of the United States."
+  },
+  {
+    "term": "brief",
+    "literal_translation": null,
+    "definition": "A written statement submitted by the lawyer for each side in a case that explains to the judge(s) why they should decide the case (or a particular part of a case) in favor of that lawyer's client."
+  },
+  {
+    "term": "capital offense",
+    "literal_translation": null,
+    "definition": "A crime punishable by death. In the federal system, it applies to crimes such as first degree murder, genocide, and treason."
+  },
+  {
+    "term": "case law",
+    "literal_translation": null,
+    "definition": "The use of court decisions to determine how other law (such as statutes) should apply in a given situation. For example, a trial court may use a prior decision from the Supreme Court that has similar issues."
+  },
+  {
+    "term": "chambers",
+    "literal_translation": null,
+    "definition": "A judge's office."
+  },
+  {
+    "term": "charge",
+    "literal_translation": null,
+    "definition": "The law that the police believe the defendant has broken."
+  },
+  {
+    "term": "charge to the jury",
+    "literal_translation": null,
+    "definition": "The judge's instructions to the jury concerning the law that applies to the facts of the case on trial."
+  },
+  {
+    "term": "chief judge",
+    "literal_translation": null,
+    "definition": "The judge who has primary responsibility for the administration of a court. The chief judge also decides cases, and the choice of chief judges is determined by seniority."
+  },
+  {
+    "term": "circumstantial evidence",
+    "literal_translation": null,
+    "definition": "All evidence that is not direct evidence (such as eyewitness testimony)."
+  },
+  {
+    "term": "clerk of court",
+    "literal_translation": null,
+    "definition": "An officer appointed by the court to work with the chief judge in overseeing the court's administration, especially to assist in managing the flow of cases through the court and to maintain court records."
+  },
+  {
+    "term": "common law",
+    "literal_translation": null,
+    "definition": "The legal system that originated in England and is now in use in the United States. It is based on court decisions rather than statutes passed by the legislature."
+  },
+  {
+    "term": "complaint",
+    "literal_translation": null,
+    "definition": "A written statement by the plaintiff stating the wrongs allegedly committed by the defendant."
+  },
+  {
+    "term": "continuance",
+    "literal_translation": null,
+    "definition": "Decision by a judge to postpone trial until a later date."
+  },
+  {
+    "term": "contract",
+    "literal_translation": null,
+    "definition": "An agreement between two or more persons that creates an obligation to do or not to do a particular thing."
+  },
+  {
+    "term": "conviction",
+    "literal_translation": null,
+    "definition": "A judgment of guilt against a criminal defendant."
+  },
+  {
+    "term": "counsel",
+    "literal_translation": null,
+    "definition": "Legal advice; a term used to refer to lawyers in a case."
+  },
+  {
+    "term": "counterclaim",
+    "literal_translation": null,
+    "definition": "A claim that a defendant makes against a plaintiff. Counterclaims can often be brought within the same proceedings as the plaintiff's claims."
+  },
+  {
+    "term": "court",
+    "literal_translation": null,
+    "definition": "Government entity authorized to resolve legal disputes. Judges sometimes use \"court\" to refer to themselves in the third person, as in \"the court has read the briefs.\""
+  },
+  {
+    "term": "court reporter",
+    "literal_translation": null,
+    "definition": "A person who makes a word-for-word record of what is said in court and produces a transcript of the proceedings upon request."
+  },
+  {
+    "term": "cross-examine",
+    "literal_translation": null,
+    "definition": "Questioning of a witness by the attorney for the other side."
+  },
+  {
+    "term": "damages",
+    "literal_translation": null,
+    "definition": "Money paid by defendants to successful plaintiffs in civil cases to compensate the plaintiffs for their injuries."
+  },
+  {
+    "term": "default judgment",
+    "literal_translation": null,
+    "definition": "A judgment rendered because of the defendant's failure to answer or appear."
+  },
+  {
+    "term": "defendant",
+    "literal_translation": null,
+    "definition": "In a civil suit, the person complained against; in a criminal case, the person accused of the crime."
+  },
+  {
+    "term": "defense table",
+    "literal_translation": null,
+    "definition": "The table where the defense lawyer sits with the defendant in the courtroom."
+  },
+  {
+    "term": "deposition",
+    "literal_translation": null,
+    "definition": "An oral statement made before an officer authorized by law to administer oaths. Such statements are often taken to examine potential witnesses, to obtain discovery, or to be used later in trial."
+  },
+  {
+    "term": "direct evidence",
+    "literal_translation": null,
+    "definition": "Evidence that supports a fact without an inference."
+  },
+  {
+    "term": "discovery",
+    "literal_translation": null,
+    "definition": "Lawyers' examination, before trial, of facts and documents in possession of the opponents to help the lawyers prepare for trial."
+  },
+  {
+    "term": "docket",
+    "literal_translation": null,
+    "definition": "A log containing brief entries of court proceedings."
+  },
+  {
+    "term": "en banc",
+    "literal_translation": null,
+    "definition": "\"In the bench\" or \"full bench.\" Refers to court sessions with the entire membership of a court participating, rather than the usual quorum. U.S. courts of appeals usually sit in panels of three judges, but may expand to a larger number in certain cases they deem important enough to be decided by the entire court. They are then said to be sitting en banc."
+  },
+  {
+    "term": "evidence",
+    "literal_translation": null,
+    "definition": "Information presented in testimony or in documents that is used to persuade the fact finder (judge or jury) to decide the case for one side or the other."
+  },
+  {
+    "term": "exculpatory evidence",
+    "literal_translation": null,
+    "definition": "Evidence which tends to show the defendant's innocence."
+  },
+  {
+    "term": "exhibit",
+    "literal_translation": null,
+    "definition": "Physical evidence or documents that are presented in a court proceeding. Common exhibits include contracts, weapons, and photographs."
+  },
+  {
+    "term": "federal question",
+    "literal_translation": null,
+    "definition": "Jurisdiction given to federal courts in cases involving the interpretation and application of the U.S. Constitution, acts of Congress, and treaties. In some cases, state courts can decide these issues, too, but the cases can always be brought in federal courts."
+  },
+  {
+    "term": "felony",
+    "literal_translation": null,
+    "definition": "A crime carrying a penalty of more than a year in prison."
+  },
+  {
+    "term": "file",
+    "literal_translation": null,
+    "definition": "To place a paper in the official custody of the clerk of court to enter into the files or records of a case. Lawyers must file a variety of documents throughout the life of a case."
+  },
+  {
+    "term": "grand jury",
+    "literal_translation": null,
+    "definition": "A body of citizens who listen to evidence of criminal allegations, which are presented by the government, and determines whether there is probable cause to believe the offense was committed. As it is used in federal criminal cases, \"the government\" refers to the lawyers of the U.S. Attorney's office who are prosecuting the case. Grand jury proceedings are closed to the public, and the person suspected of having committed the crime is not entitled to be present or have an attorney present. States are not required to use grand juries, but the federal government must do so under the Constitution."
+  },
+  {
+    "term": "habeas corpus",
+    "literal_translation": null,
+    "definition": "A writ that is often used to bring a prisoner before the court to determine the legality of his imprisonment. A prisoner wanting to argue that there is not sufficient cause to be imprisoned would file a writ of habeas corpus. It may also be used to bring a person in custody before the court to give testimony, or to be prosecuted."
+  },
+  {
+    "term": "hearsay",
+    "literal_translation": null,
+    "definition": "Statements by a witness who did not see or hear the incident in question but learned about it through secondhand information such as another's statement, a newspaper, or a document. Hearsay is usually not admissible as evidence in court, but there are many exceptions to that rule."
+  },
+  {
+    "term": "impeachment",
+    "literal_translation": null,
+    "definition": "(1) The process of calling something into question, as in \"impeaching the testimony of a witness.\" (2) The constitutional process whereby the House of Representatives may \"impeach\" (accuse of misconduct) high officers of the federal government for trial in the Senate."
+  },
+  {
+    "term": "inculpatory evidence",
+    "literal_translation": null,
+    "definition": "Evidence which tends to show the defendant's guilt."
+  },
+  {
+    "term": "indictment",
+    "literal_translation": null,
+    "definition": "The formal charge issued by a grand jury stating that there is enough evidence that the defendant committed the crime to justify having a trial; it is used primarily for felonies."
+  },
+  {
+    "term": "in forma pauperis",
+    "literal_translation": null,
+    "definition": "In the manner of a pauper. Permission given to a person to sue without payment of court fees on claim of indigence or poverty."
+  },
+  {
+    "term": "information",
+    "literal_translation": null,
+    "definition": "A formal accusation by a government attorney that the defendant committed a misdemeanor."
+  },
+  {
+    "term": "initial hearing",
+    "literal_translation": null,
+    "definition": "Court proceeding in which the defendant learns of his rights and the charges against him and the judge decides bail."
+  },
+  {
+    "term": "injunction",
+    "literal_translation": null,
+    "definition": "An order of the court prohibiting (or compelling) the performance of a specific act to prevent irreparable damage or injury."
+  },
+  {
+    "term": "interrogatories",
+    "literal_translation": null,
+    "definition": "Written questions asked to one party by an opposing party, who must answer them in writing under oath. Interrogatories are a part of discovery in a lawsuit."
+  },
+  {
+    "term": "interview",
+    "literal_translation": null,
+    "definition": "A meeting with the police or prosecutor."
+  },
+  {
+    "term": "issue",
+    "literal_translation": null,
+    "definition": "(1) The disputed point in a disagreement between parties in a lawsuit. (2) To send out officially, as in to issue an order."
+  },
+  {
+    "term": "judge",
+    "literal_translation": null,
+    "definition": "Government official with authority to decide lawsuits brought before courts. Judicial officers of the Supreme Court and the highest court in each state are called justices."
+  },
+  {
+    "term": "judgment",
+    "literal_translation": null,
+    "definition": "The official decision of a court finally determining the respective rights and claims of the parties to a suit."
+  },
+  {
+    "term": "jurisdiction",
+    "literal_translation": null,
+    "definition": "(1) The legal authority of a court to hear and decide a case. Concurrent jurisdiction exists when two courts have simultaneous responsibility for the same case. Some issues can be heard in both state and federal courts. The plaintiff initially decides where to bring the suit, but in some cases, the defendant can seek to change the court. (2) The geographic area over which the court has authority to decide cases. A federal court in one state, for example, can usually only decide a case that arose from actions in that state."
+  },
+  {
+    "term": "juror",
+    "literal_translation": null,
+    "definition": "A person who is on the jury."
+  },
+  {
+    "term": "jury",
+    "literal_translation": null,
+    "definition": "Persons selected according to law and sworn to inquire into and declare a verdict on matters of fact. State court juries can be as small as six jurors in some cases. Federal juries for civil suits must have six jurors criminal suits must have twelve."
+  },
+  {
+    "term": "jury instructions",
+    "literal_translation": null,
+    "definition": "A judge's explanation to the jury before it begins deliberations of the questions it must answer and the law governing the case. Each party suggests jury instructions to the judge, but the judge chooses the final wording."
+  },
+  {
+    "term": "jury pool",
+    "literal_translation": null,
+    "definition": "The group of people from which the actual jury is chosen. The jury pool is randomly selected from a source such as voter registration banks. Lawyers in the case choose the actual jurors from the jury pool through a process called voir dire."
+  },
+  {
+    "term": "jurisprudence",
+    "literal_translation": null,
+    "definition": "The study of law and the structure of the legal system."
+  },
+  {
+    "term": "lawsuit",
+    "literal_translation": null,
+    "definition": "A legal action started by a plaintiff against a defendant based on a complaint that the defendant failed to perform a legal duty, resulting in harm to the plaintiff."
+  },
+  {
+    "term": "law clerk (or staff attorney)",
+    "literal_translation": null,
+    "definition": "Assist judges with research and drafting of opinions."
+  },
+  {
+    "term": "librarian",
+    "literal_translation": null,
+    "definition": "Meets the informational needs of the judges and lawyers."
+  },
+  {
+    "term": "litigation",
+    "literal_translation": null,
+    "definition": "A case, controversy, or lawsuit. Participants (plaintiffs and defendants) in lawsuits are called litigants."
+  },
+  {
+    "term": "magistrate judges",
+    "literal_translation": null,
+    "definition": "Judicial officers who assist U.S. district court judges in getting cases ready for trial. They may decide some criminal and civil trials when both parties agree to have the case heard by a magistrate judge instead of a district court judge."
+  },
+  {
+    "term": "misdemeanor",
+    "literal_translation": null,
+    "definition": "Usually a petty offense, a less serious crime than a felony, punishable by less than a year of confinement."
+  },
+  {
+    "term": "mistrial",
+    "literal_translation": null,
+    "definition": "An invalid trial caused by fundamental error. When a mistrial is declared, the trial must start again, beginning with the selection of a new jury."
+  },
+  {
+    "term": "motion",
+    "literal_translation": null,
+    "definition": "Attempt to have a limited issue heard by the court. Motions can be filed before, during, and after trial."
+  },
+  {
+    "term": "nolo contendere",
+    "literal_translation": null,
+    "definition": "No contest. Has the same effect as a plea of guilty as far as the criminal sentence is concerned, but the plea may not be considered an admission of guilt for any other purpose. Sometimes, a guilty plea could later be used to show fault in a lawsuit, but the plea of nolo contendere forces the plaintiff in the lawsuit to prove that the defendant committed the crime."
+  },
+  {
+    "term": "oath",
+    "literal_translation": null,
+    "definition": "A promise to tell the truth."
+  },
+  {
+    "term": "objection",
+    "literal_translation": null,
+    "definition": "A protest by an attorney, challenging a statement or question made at trial. Common objections include an attorney “leading the witness” or a witness making a statement that is hearsay. Once an objection is made, the judge must decide whether to allow the question or statement."
+  },
+  {
+    "term": "opinion",
+    "literal_translation": null,
+    "definition": "A judge's written explanation of a decision of the court. In an appeal, multiple opinions may be written. The court's ruling comes from a majority of judges and forms the majority opinion. A dissenting opinion disagrees with the majority because of the reasoning and/or the principles of law on which the decision is based. A concurring opinion agrees with the end result of the court but offers further comment possibly because they disagree with how the court reached its conclusion."
+  },
+  {
+    "term": "oral argument",
+    "literal_translation": null,
+    "definition": "An opportunity for lawyers to summarize their position before the court in an appeal and also to answer the judges' questions."
+  },
+  {
+    "term": "panel",
+    "literal_translation": null,
+    "definition": "(1) In appellate cases, a group of judges (usually three) assigned to decide the case; (2) In the jury selection process, the group of potential jurors."
+  },
+  {
+    "term": "parties",
+    "literal_translation": null,
+    "definition": "Plaintiffs and defendants (petitioners and respondents) to lawsuits, also known as appellants and appellees in appeals, and their lawyers."
+  },
+  {
+    "term": "petit jury (or trial jury)",
+    "literal_translation": null,
+    "definition": "A group of citizens who hear the evidence presented by both sides at trial and determine the facts in dispute. Federal criminal juries consist of 12 persons. Federal civil juries consist of six persons."
+  },
+  {
+    "term": "plaintiff",
+    "literal_translation": null,
+    "definition": "The person who files the complaint in a civil lawsuit."
+  },
+  {
+    "term": "plea",
+    "literal_translation": null,
+    "definition": "In a criminal case, the defendant's statement pleading \"guilty\" or \"not guilty\" in answer to the charges in open court. A plea of nolo contendere or an Alford plea may also be made. A guilty plea allows the defendant to forego a trial."
+  },
+  {
+    "term": "plea deal (or plea bargain or agreement)",
+    "literal_translation": null,
+    "definition": "Agreement between the defendant and prosecutor where the defendant pleads guilty in exchange for a concession by the prosecutor. It may include lesser charges, a dismissal of charges, or the prosecutor's recommendation to the judge of a more lenient sentence."
+  },
+  {
+    "term": "pleadings",
+    "literal_translation": null,
+    "definition": "Written statements of the parties in a civil case of their positions. In federal courts, the principal pleadings are the complaint and the answer."
+  },
+  {
+    "term": "precedent",
+    "literal_translation": null,
+    "definition": "A court decision in an earlier case with facts and law similar to a dispute currently before a court. Precedent will ordinarily govern the decision of a later similar case, unless a party can show that it was wrongly decided or that it differed in some significant way. Some precedent is binding, meaning that it must be followed. Other precedents need not be followed by the court but can be considered influential."
+  },
+  {
+    "term": "procedure",
+    "literal_translation": null,
+    "definition": "The rules for the conduct of a lawsuit; there are rules of civil, criminal, evidence, bankruptcy, and appellate procedure."
+  },
+  {
+    "term": "preliminary hearing",
+    "literal_translation": null,
+    "definition": "A hearing where the judge decides whether there is enough evidence to require the defendant to go to trial. Preliminary hearings do not require the same rules as trials. For example, hearsay is often admissible during the preliminary hearing but not at trial."
+  },
+  {
+    "term": "pretrial conference",
+    "literal_translation": null,
+    "definition": "A meeting of the judge and lawyers to discuss which matters should be presented to the jury, to review evidence and witnesses, to set a timetable, and to discuss the settlement of the case."
+  },
+  {
+    "term": "probable cause",
+    "literal_translation": null,
+    "definition": "An amount of suspicion leading one to believe certain facts are probably true. The Fourth Amendment requires probable cause for the issuance of an arrest or search warrant."
+  },
+  {
+    "term": "probation",
+    "literal_translation": null,
+    "definition": "A sentencing alternative to imprisonment in which the court releases convicted defendants under supervision as long as certain conditions are observed."
+  },
+  {
+    "term": "probation officers (or pretrial services officers)",
+    "literal_translation": null,
+    "definition": "Screen applicants for pretrial release and monitor convicted offenders released under court supervision."
+  },
+  {
+    "term": "pro se",
+    "literal_translation": null,
+    "definition": "A Latin term meaning \"on one's own behalf\"; in courts, it refers to persons who present their own cases without lawyers."
+  },
+  {
+    "term": "prosecute",
+    "literal_translation": null,
+    "definition": "To charge someone with a crime. A prosecutor tries a criminal case on behalf of the government."
+  },
+  {
+    "term": "public defenders",
+    "literal_translation": null,
+    "definition": "Represent defendants who can't afford an attorney in criminal matters."
+  },
+  {
+    "term": "record",
+    "literal_translation": null,
+    "definition": "A written account of all the acts and proceedings in a lawsuit."
+  },
+  {
+    "term": "remand",
+    "literal_translation": null,
+    "definition": "When an appellate court sends a case back to a lower court for further proceedings. The lower court is often required to do something differently, but that does not always mean the court's final decision will change"
+  },
+  {
+    "term": "reporter",
+    "literal_translation": null,
+    "definition": "Makes a record of court proceedings, prepares a transcript, and publishes the court's opinions or decisions."
+  },
+  {
+    "term": "reverse",
+    "literal_translation": null,
+    "definition": "When an appellate court sets aside the decision of a lower court because of an error. A reversal is often followed by a remand. For example, if the defendant argued on appeal that certain evidence should not have been used at trial, and the appeals court agrees, the case will be remanded in order for the trial court to reconsider the case without that evidence."
+  },
+  {
+    "term": "search warrant",
+    "literal_translation": null,
+    "definition": "Orders that a specific location be searched for items, which if found, can be used in court as evidence. Search warrants require probable cause in order to be issued."
+  },
+  {
+    "term": "sentence",
+    "literal_translation": null,
+    "definition": "The punishment ordered by a court for a defendant convicted of a crime. Federal courts look to the United States Sentencing Commission Guidelines when deciding the proper punishment for a given crime."
+  },
+  {
+    "term": "service of process",
+    "literal_translation": null,
+    "definition": "The service of writs or summonses to the appropriate party."
+  },
+  {
+    "term": "settlement",
+    "literal_translation": null,
+    "definition": "Parties to a lawsuit resolve their difference without having a trial. Settlements often involve the payment of compensation by one party in satisfaction of the other party's claims."
+  },
+  {
+    "term": "sequester",
+    "literal_translation": null,
+    "definition": "To separate. Sometimes juries are sequestered from outside influences during their deliberations."
+  },
+  {
+    "term": "sidebar",
+    "literal_translation": null,
+    "definition": "A conference between the judge and lawyers held out of earshot of the jury and spectators."
+  },
+  {
+    "term": "statement",
+    "literal_translation": null,
+    "definition": "A description that a witness gives to the police and that the police write down."
+  },
+  {
+    "term": "statute",
+    "literal_translation": null,
+    "definition": "A law passed by a legislature."
+  },
+  {
+    "term": "statute of limitations",
+    "literal_translation": null,
+    "definition": "A law that sets the time within which parties must take action to enforce their rights."
+  },
+  {
+    "term": "stay",
+    "literal_translation": null,
+    "definition": "A temporary pause or suspension of a judicial proceeding. Stays are usually designed to terminate upon the completion of specified event (e.g., a judicial decision in a separate case or the end of a government shutdown) or after a specific period of time."
+  },
+  {
+    "term": "subpoena",
+    "literal_translation": null,
+    "definition": "A command to a witness to appear and give testimony."
+  },
+  {
+    "term": "subpoena duces tecum",
+    "literal_translation": null,
+    "definition": "A command to a witness to produce documents."
+  },
+  {
+    "term": "summary judgment",
+    "literal_translation": null,
+    "definition": "A decision made on the basis of statements and evidence presented for the record without a trial. It is used when there is no dispute as to the facts of the case, and one party is entitled to judgment as a matter of law."
+  },
+  {
+    "term": "temporary restraining order",
+    "literal_translation": null,
+    "definition": "Prohibits a person from an action that is likely to cause irreparable harm. This differs from an injunction in that it may be granted immediately, without notice to the opposing party, and without a hearing. It is intended to last only until a hearing can be held."
+  },
+  {
+    "term": "testify",
+    "literal_translation": null,
+    "definition": "Answer questions in court."
+  },
+  {
+    "term": "testimony",
+    "literal_translation": null,
+    "definition": "Evidence presented orally by witnesses during trials or before grand juries."
+  },
+  {
+    "term": "tort",
+    "literal_translation": null,
+    "definition": "A civil wrong or breach of a duty to another person as outlined by law. A very common tort is negligent operation of a motor vehicle that results in property damage and personal injury in an automobile accident."
+  },
+  {
+    "term": "transcript",
+    "literal_translation": null,
+    "definition": "A written, word-for-word record of what was said, either in a proceeding such as a trial or during some other conversation."
+  },
+  {
+    "term": "trial",
+    "literal_translation": null,
+    "definition": "A hearing that takes place when the defendant pleads \"not guilty,” and the parties are required to come to court to present evidence."
+  },
+  {
+    "term": "uphold",
+    "literal_translation": null,
+    "definition": "The decision of an appellate court not to reverse a lower court decision. Also called \"affirm.\""
+  },
+  {
+    "term": "U.S. Attorney (or federal prosecutor)",
+    "literal_translation": null,
+    "definition": "A lawyer appointed by the President in each judicial district to prosecute and defend cases for the federal government."
+  },
+  {
+    "term": "U.S. Marshal (or bailiff)",
+    "literal_translation": null,
+    "definition": "enforce the rules of behavior in courtrooms."
+  },
+  {
+    "term": "venue",
+    "literal_translation": null,
+    "definition": "The geographical location in which a case is tried."
+  },
+  {
+    "term": "verdict",
+    "literal_translation": null,
+    "definition": "The decision of a petit jury or a judge."
+  },
+  {
+    "term": "victim advocate",
+    "literal_translation": null,
+    "definition": "work with prosecutors and assist the victims of a crime."
+  },
+  {
+    "term": "voir dire",
+    "literal_translation": null,
+    "definition": "The process by which judges and lawyers select a petit jury from among those eligible to serve by questioning them to determine knowledge of the facts of the case and a willingness to decide the case only on the evidence presented in court. \"Voir dire\" is a phrase meaning \"to speak the truth.\""
+  },
+  {
+    "term": "warrant",
+    "literal_translation": null,
+    "definition": "An arrest warrant is a written order directing the arrest of a party. A search warrant orders that a specific location be searched for items, which if found, can be used in court as evidence. Search warrants require probable cause in order to be issued."
+  },
+  {
+    "term": "witness",
+    "literal_translation": null,
+    "definition": "A person called upon by either side in a lawsuit to give testimony before the court or jury."
+  },
+  {
+    "term": "writ",
+    "literal_translation": null,
+    "definition": "A formal written command, issued from the court, requiring the performance of a specific act."
+  },
+  {
+    "term": "writ of certiorari",
+    "literal_translation": null,
+    "definition": "An order issued by the Supreme Court directing the lower court to transmit records for a case for which it will hear on appeal. The Supreme Court is usually not required to hear appeals of cases. A denial of “cert” by the Supreme Court allows the previous ruling to stand."
+  }
+]

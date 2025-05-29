@@ -125,7 +125,7 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen>
     );
 
     final prompt = '''
-You are a legal assistant. Analyze this Terms and Conditions document:
+You are a legal assistant. Analyze this Terms and Conditions, rental agreements, loan forms, employment contracts, etc. document:
 
 Criteria:
 1. Clarity and Simplicity
