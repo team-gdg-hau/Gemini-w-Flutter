@@ -5,6 +5,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 import 'dart:io';
 import 'dart:convert'; // For jsonDecode
 import 'package:flutter/services.dart'; // For rootBundle
+import 'dart:math';
 
 void main() => runApp(LegalDocAnalyzerApp());
 
@@ -44,6 +45,7 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen>
   String _summary = '';
   String _legalityScore = '';
   String _comparisonResult = '';
+  String _neutralLegal = '';
 
   Map<String, int> _criteriaScores = {};
 
@@ -155,6 +157,7 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen>
       _loading = true;
       _goodLegal = '';
       _badLegal = '';
+      _neutralLegal = '';
       _verdict = '';
       _summary = '';
       _legalityScore = '';
@@ -202,8 +205,8 @@ Transparency of Changes: [score]
 No Abusive Clauses: [score]
 
 Output:
-- Good Points 15 words each findings 
-- Bad Points 15 words each findings 
+- 3 Major Bad Points 7 words each findings, Next Line format, answer only
+- 3 Major Neutral Points 7 words each findings, Next Line format, answer only
 - Verdict
 - Summary
 - Legality Score (0–100)
@@ -216,8 +219,8 @@ $text
       final response = await model.generateContent([Content.text(prompt)]);
       final output = response.text ?? '';
 
-      final goodStart = output.indexOf('Good Points:');
       final badStart = output.indexOf('Bad Points:');
+      final neutralStart = output.indexOf('Neutral Points:');
       final verdictStart = output.indexOf('Verdict:');
       final summaryStart = output.indexOf('Summary:');
       final scoreStart = output.indexOf('Legality Score');
@@ -232,8 +235,8 @@ $text
         if (label != null &&
             value != null &&
             label != 'Legality Score' &&
-            label != 'Good Points' &&
             label != 'Bad Points' &&
+            label != 'Neutral Points' &&
             label != 'Verdict' &&
             label != 'Summary') {
           criteriaScores[label] = value;
@@ -241,10 +244,10 @@ $text
       }
 
       setState(() {
-        _goodLegal = goodStart >= 0 && badStart >= 0
-            ? output.substring(goodStart + 11, badStart).trim()
-            : '';
         _badLegal = badStart >= 0 && verdictStart >= 0
+            ? output.substring(badStart + 10, verdictStart).trim()
+            : '';
+        _neutralLegal = neutralStart >= 0 && verdictStart >= 0
             ? output.substring(badStart + 10, verdictStart).trim()
             : '';
         _verdict = verdictStart >= 0 && summaryStart >= 0
@@ -339,48 +342,68 @@ Output a bullet-point summary of the differences.
       });
     }
   }
+  Widget _buildMixedBulletBox(List<Map<String, String>> items) {
+    IconData getIcon(String type) {
+      switch (type) {
+        case 'bad':
+          return Icons.thumb_down_alt;
+        case 'neutral':
+          return Icons.info_outline;
+        default:
+          return Icons.remove_red_eye_outlined;
+      }
+    }
 
-  Widget _buildBulletText(String title, String content, {required bool isDanger}) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          title,
-          style: const TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 18,
-            color: Colors.indigo,
-          ),
-        ),
-        const SizedBox(height: 8),
-        Container(
-          padding: const EdgeInsets.all(12),
-          decoration: BoxDecoration(
-            color: isDanger ? Colors.red.shade900 : Colors.green.shade900,
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.grey.shade300,
+        borderRadius: BorderRadius.circular(20),
+      ),
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      margin: const EdgeInsets.only(bottom: 16),
+      child: Column(
+        children: List.generate(items.length, (index) {
+          final point = items[index];
+          final type = point['type'] ?? 'neutral';
+          final text = point['text'] ?? '';
+
+          return Column(
             children: [
-              Icon(
-                isDanger ? Icons.block : Icons.thumb_up_alt,
-                color: Colors.white,
-                size: 20,
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Text(
-                  content,
-                  style: const TextStyle(fontSize: 16, color: Colors.white),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Icon(getIcon(type), color: Colors.black, size: 24),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        text,
+                        style: const TextStyle(
+                          fontSize: 16,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
+              if (index < items.length - 1)
+                const Divider(
+                  height: 3,
+                  thickness: 3,
+                  color: Colors.white,
+                  indent: 25,
+                  endIndent: 25,
+                ),
             ],
-          ),
-        ),
-        const SizedBox(height: 16),
-      ],
+          );
+        }),
+      ),
     );
   }
+
 
 
 
@@ -450,12 +473,67 @@ Output a bullet-point summary of the differences.
       ),
     );
   }
+  String _cleanPointText(String input) {
+    final prefixesToRemove = [
+      'Major:',
+      'Minor:',
+      'Major neutral points:',
+      'Neutral:',
+    ];
+
+    for (var prefix in prefixesToRemove) {
+      if (input.toLowerCase().startsWith(prefix.toLowerCase())) {
+        return input.substring(prefix.length).trim();
+      }
+    }
+
+    return input;
+  }
 
   @override
   Widget build(BuildContext context) {
+
     final criteriaWidgets = _criteriaScores.entries
         .map((e) => _buildScoreCard(e.key, e.value))
         .toList();
+
+    final List<Map<String, String>> combinedLegalPoints = [
+
+      ..._badLegal
+          .split('\n')
+          .map((item) => item.trim())
+          .where((item) =>
+      item.isNotEmpty &&
+          !item.toLowerCase().startsWith('major') &&
+          !item.toLowerCase().startsWith('minor') &&
+          !item.toLowerCase().contains('points:') &&
+          !item.endsWith(':'))
+          .map((item) => {
+        'text': _cleanPointText(item),
+        'type': 'bad',
+      }),
+      ..._neutralLegal
+          .split('\n')
+          .map((item) => item.trim())
+          .where((item) =>
+      item.isNotEmpty &&
+          !item.toLowerCase().startsWith('major') &&
+          !item.toLowerCase().startsWith('minor') &&
+          !item.toLowerCase().contains('points:') &&
+          !item.endsWith(':'))
+          .map((item) => {
+        'text': _cleanPointText(item),
+        'type': 'neutral',
+      }),
+    ];
+
+
+    combinedLegalPoints.shuffle();
+
+    final warningPoints = combinedLegalPoints
+        .where((e) => e['type'] == 'bad' || e['type'] == 'neutral')
+        .toList();
+
 
     return Scaffold(
       appBar: AppBar(
@@ -502,35 +580,11 @@ Output a bullet-point summary of the differences.
             ],
             if (_legalJargonWidgets.isNotEmpty) ...[
               SizedBox(height: 16),
-              Text('Legal Jargon Explained:',
-                  style: TextStyle(
-                      fontSize: 18, fontWeight: FontWeight.bold, color: Colors.indigo)),
-              SizedBox(height: 8),
-              ..._legalJargonWidgets,
             ],
+            if (warningPoints.isNotEmpty) _buildMixedBulletBox(warningPoints),
 
-            if (_goodLegal.isNotEmpty) ...[
-              _buildBulletText('Good Points:', _goodLegal, isDanger: false),
-              Text('Good Points:',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18,
-                      color: Colors.indigo)),
-              SizedBox(height: 4),
-              Text(_verdict, style: TextStyle(fontSize: 16)),
-              SizedBox(height: 16),
-            ],
-            if (_badLegal.isNotEmpty) ...[
-              _buildBulletText('Bad Points:', _badLegal, isDanger: true),
-              Text('Bad Points:',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18,
-                      color: Colors.indigo)),
-              SizedBox(height: 4),
-              Text(_verdict, style: TextStyle(fontSize: 16)),
-              SizedBox(height: 16),
-            ],
+
+
             if (_verdict.isNotEmpty)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
