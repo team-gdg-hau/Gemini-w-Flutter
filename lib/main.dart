@@ -11,7 +11,16 @@ class LegalDocAnalyzerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Legal Doc Analyzer',
-      theme: ThemeData(primarySwatch: Colors.indigo),
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+        scaffoldBackgroundColor: Colors.grey[100],
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            padding: EdgeInsets.symmetric(vertical: 14, horizontal: 20),
+            textStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
       home: LegalDocAnalyzerScreen(),
     );
   }
@@ -22,7 +31,8 @@ class LegalDocAnalyzerScreen extends StatefulWidget {
   _LegalDocAnalyzerScreenState createState() => _LegalDocAnalyzerScreenState();
 }
 
-class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen> {
+class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen>
+    with SingleTickerProviderStateMixin {
   final _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
 
@@ -33,14 +43,39 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen> {
   String _legalityScore = '';
   String _comparisonResult = '';
 
+  Map<String, int> _criteriaScores = {};
+
   bool _loading = false;
   File? _selectedImage;
   File? _secondImage;
 
+  late AnimationController _animationController;
+  late Animation<double> _progressAnimation;
+
   final String _apiKey = 'AIzaSyAVf0kDtdaaakhEbe12OVWUyS4GS-Rl0fs'; // Replace with your Gemini API Key
 
+  @override
+  void initState() {
+    super.initState();
+    _animationController = AnimationController(
+      vsync: this,
+      duration: Duration(seconds: 2),
+    );
+    _progressAnimation =
+        Tween<double>(begin: 0, end: 1).animate(_animationController);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    _animationController.dispose();
+    _scrollController.dispose();
+    super.dispose();
+  }
+
   Future<void> _pickImage() async {
-    final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
+    final pickedFile =
+    await ImagePicker().pickImage(source: ImageSource.gallery);
     if (pickedFile != null) {
       _selectedImage = File(pickedFile.path);
       await _extractTextFromImage(_selectedImage!);
@@ -79,7 +114,10 @@ class _LegalDocAnalyzerScreenState extends State<LegalDocAnalyzerScreen> {
       _summary = '';
       _legalityScore = '';
       _comparisonResult = '';
+      _criteriaScores = {};
     });
+
+    _animationController.reset();
 
     final model = GenerativeModel(
       model: 'models/gemini-1.5-pro-latest',
@@ -106,6 +144,17 @@ Scoring Guidelines:
 - Use 41–70 for documents that meet basic standards but need improvements.
 - Use 71–90 for well-structured and mostly compliant documents.
 - Use 91–100 only for excellent documents with no major flaws and high transparency.
+- Choose 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 in closest 10's for Legality Score.
+
+Output each criterion score in this format exactly:
+Clarity and Simplicity: [score]
+User Rights: [score]
+Limitations and Liabilities: [score]
+Privacy and Data Use: [score]
+Cancellation and Termination: [score]
+Dispute Resolution: [score]
+Transparency of Changes: [score]
+No Abusive Clauses: [score]
 
 Output:
 - Good Legal
@@ -118,7 +167,6 @@ Document:
 $text
 ''';
 
-
     try {
       final response = await model.generateContent([Content.text(prompt)]);
       final output = response.text ?? '';
@@ -128,6 +176,24 @@ $text
       final verdictStart = output.indexOf('Verdict:');
       final summaryStart = output.indexOf('Summary:');
       final scoreStart = output.indexOf('Legality Score');
+
+      // Extract criteria scores
+      final scoreRegex = RegExp(r'([A-Za-z\s]+):\s*(\d{1,3})');
+      final scoreMatches = scoreRegex.allMatches(output);
+      Map<String, int> criteriaScores = {};
+      for (final match in scoreMatches) {
+        final label = match.group(1)?.trim();
+        final value = int.tryParse(match.group(2)!);
+        if (label != null &&
+            value != null &&
+            label != 'Legality Score' &&
+            label != 'Good Legal' &&
+            label != 'Bad Legal' &&
+            label != 'Verdict' &&
+            label != 'Summary') {
+          criteriaScores[label] = value;
+        }
+      }
 
       setState(() {
         _goodLegal = goodStart >= 0 && badStart >= 0
@@ -142,10 +208,13 @@ $text
         _summary = summaryStart >= 0 && scoreStart >= 0
             ? output.substring(summaryStart + 8, scoreStart).trim()
             : '';
-        _legalityScore = scoreStart >= 1
+        _legalityScore = scoreStart >= 0
             ? RegExp(r'\d+').stringMatch(output.substring(scoreStart)) ?? ''
             : '';
+        _criteriaScores = criteriaScores;
       });
+
+      _animationController.forward();
 
       await Future.delayed(Duration(milliseconds: 300));
       _scrollController.animateTo(
@@ -165,7 +234,8 @@ $text
   }
 
   Future<void> _pickSecondImageAndCompare() async {
-    final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
+    final pickedFile =
+    await ImagePicker().pickImage(source: ImageSource.gallery);
     if (pickedFile != null && _selectedImage != null) {
       _secondImage = File(pickedFile.path);
 
@@ -224,93 +294,256 @@ Output a bullet-point summary of the differences.
     }
   }
 
-  Widget _buildBulletList(String label, String text) {
-    final points = _extractBulletPoints(text);
-    if (points.isEmpty) return SizedBox();
-
+  Widget _buildBulletText(String title, String content) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(label, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-        ...points.map((point) => Row(
+        Text(title,
+            style: const TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+                color: Colors.indigo)),
+        const SizedBox(height: 4),
+        Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('• ', style: TextStyle(fontSize: 16)),
-            Expanded(child: Text(point)),
+            const Text('• ', style: TextStyle(fontSize: 16, height: 1.5)),
+            Expanded(child: Text(content, style: const TextStyle(fontSize: 16))),
           ],
-        )),
-        SizedBox(height: 12),
+        ),
+        const SizedBox(height: 16),
       ],
+    );
+  }
+
+
+
+
+  Widget _buildScoreCard(String title, int score) {
+    Color getColor(int s) {
+      if (s >= 90) return Colors.green.shade700;
+      if (s >= 70) return Colors.lightGreen.shade600;
+      if (s >= 50) return Colors.orange.shade700;
+      return Colors.red.shade400;
+    }
+
+    return Card(
+      elevation: 3,
+      margin: EdgeInsets.symmetric(vertical: 6),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      child: Padding(
+        padding: EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(title,
+                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16)),
+            ),
+            AnimatedBuilder(
+              animation: _progressAnimation,
+              builder: (context, child) {
+                final animatedScore =
+                (_progressAnimation.value * score).clamp(0, score).toInt();
+                return Row(
+                  children: [
+                    Container(
+                      width: 150,
+                      height: 20,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.grey.shade300,
+                      ),
+                      child: Stack(
+                        children: [
+                          FractionallySizedBox(
+                            widthFactor: animatedScore / 100,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: getColor(score),
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(width: 12),
+                    Text(
+                      '$animatedScore%',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: getColor(score),
+                          fontSize: 16),
+                    ),
+                  ],
+                );
+              },
+            ),
+          ],
+        ),
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    final criteriaWidgets = _criteriaScores.entries
+        .map((e) => _buildScoreCard(e.key, e.value))
+        .toList();
+
     return Scaffold(
-      appBar: AppBar(title: Text('PaperProof Analyzer')),
+      appBar: AppBar(
+        title: Text('Paperproof Analyzer'),
+        centerTitle: true,
+      ),
       body: SingleChildScrollView(
         controller: _scrollController,
-        padding: EdgeInsets.all(16.0),
+        padding: EdgeInsets.all(16),
         child: Column(
           children: [
-            ElevatedButton.icon(
-              icon: Icon(Icons.image),
-              label: Text('Upload First Image'),
-              onPressed: _pickImage,
-            ),
-            if (_selectedImage != null)
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 10),
-                child: Image.file(_selectedImage!, height: 150),
-              ),
             TextField(
               controller: _controller,
-              maxLines: 10,
+              maxLines: 12,
               decoration: InputDecoration(
-                hintText: 'Paste Terms and Conditions document here...',
+                hintText: 'Paste Terms & Conditions here or pick an image',
                 border: OutlineInputBorder(),
+                filled: true,
+                fillColor: Colors.white,
               ),
             ),
-            SizedBox(height: 16),
+            SizedBox(height: 12),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton.icon(
-                  icon: Icon(Icons.check_circle),
-                  label: Text('Analyze Legality'),
-                  onPressed: _loading ? null : () => _analyzeDocument(_controller.text),
+                  icon: Icon(Icons.photo_library),
+                  label: Text('Pick Image'),
+                  onPressed: _loading ? null : _pickImage,
                 ),
+                SizedBox(width: 12),
                 ElevatedButton.icon(
-                  icon: Icon(Icons.compare),
-                  label: Text('Compare Documents'),
+                  icon: Icon(Icons.analytics),
+                  label: Text('Analyze Document'),
+                  onPressed: _loading || _controller.text.trim().isEmpty
+                      ? null
+                      : () => _analyzeDocument(_controller.text.trim()),
+                ),
+              ],
+            ),
+            SizedBox(height: 24),
+            if (_loading) ...[
+              CircularProgressIndicator(),
+              SizedBox(height: 16),
+            ],
+            if (_goodLegal.isNotEmpty) ...[
+              _buildBulletText('Good Legal:', _goodLegal),
+              Text('Good Legal:',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      color: Colors.indigo)),
+              SizedBox(height: 4),
+              Text(_verdict, style: TextStyle(fontSize: 16)),
+              SizedBox(height: 16),
+            ],
+            if (_badLegal.isNotEmpty) ...[
+              _buildBulletText('Bad Legal:', _badLegal),
+              Text('Bad Legal:',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      color: Colors.indigo)),
+              SizedBox(height: 4),
+              Text(_verdict, style: TextStyle(fontSize: 16)),
+              SizedBox(height: 16),
+            ],
+            if (_verdict.isNotEmpty)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Verdict:',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: Colors.indigo)),
+                  SizedBox(height: 4),
+                  Text(_verdict, style: TextStyle(fontSize: 16)),
+                  SizedBox(height: 16),
+                ],
+              ),
+
+            if (_summary.isNotEmpty)
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Summary:',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: Colors.indigo)),
+                  SizedBox(height: 4),
+                  Text(_summary, style: TextStyle(fontSize: 16)),
+                  SizedBox(height: 16),
+                ],
+              ),
+            if (_legalityScore.isNotEmpty)
+              Card(
+                color: Colors.indigo.shade50,
+                child: Padding(
+                  padding:
+                  EdgeInsets.symmetric(vertical: 14.0, horizontal: 20.0),
+                  child: Text(
+                    'Legality Score: $_legalityScore / 100',
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.indigo.shade900),
+                  ),
+                ),
+              ),
+            SizedBox(height: 12),
+            ...criteriaWidgets,
+            SizedBox(height: 24),
+            Divider(height: 2, color: Colors.indigo.shade200),
+            SizedBox(height: 16),
+            Text(
+              'Compare Terms and Conditions',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                color: Colors.indigo.shade900,
+              ),
+            ),
+            SizedBox(height: 12),
+            Row(
+              children: [
+                ElevatedButton.icon(
+                  icon: Icon(Icons.photo_library_outlined),
+                  label: Text('Pick Second Image'),
                   onPressed: _loading ? null : _pickSecondImageAndCompare,
                 ),
               ],
             ),
-            SizedBox(height: 20),
-            if (_loading) CircularProgressIndicator(),
-            if (_goodLegal.isNotEmpty) _buildBulletList('✅ Good Legal Points:', _goodLegal),
-            if (_badLegal.isNotEmpty) _buildBulletList('⚠️ Bad Legal Points:', _badLegal),
-            if (_verdict.isNotEmpty)
-              Text('🧑‍⚖️ Verdict: $_verdict',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Colors.indigo)),
-            if (_legalityScore.isNotEmpty)
-              Text('⚖️ Legality Score: $_legalityScore / 100',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.green)),
-            if (_summary.isNotEmpty) ...[
-              SizedBox(height: 10),
-              Text('📋 Summary:', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-              Text(_summary),
-            ],
-            if (_comparisonResult.isNotEmpty) ...[
-              Divider(thickness: 2),
-              Text('📄 Document Comparison', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-              Text(_comparisonResult),
-            ],
-            SizedBox(height: 20),
+            SizedBox(height: 16),
+            if (_loading)
+              CircularProgressIndicator(),
+            if (_comparisonResult.isNotEmpty)
+              Container(
+                width: double.infinity,
+                padding: EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.indigo.shade50,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  _comparisonResult,
+                  style: TextStyle(fontSize: 16),
+                ),
+              ),
+            SizedBox(height: 40),
           ],
         ),
       ),
     );
   }
 }
+
