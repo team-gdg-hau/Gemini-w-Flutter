@@ -16,3 +16,15 @@ Thank you for considering contributing to this project! 🎉
 1. Fork the repository.
 2. Create a new branch:
 
+3. Make your changes.
+4. Test your changes thoroughly.
+5. Submit a Pull Request (PR) with:
+- A clear title and description
+- Reference to related issues (if any)
+
+### 💡 Code Style
+- Use consistent formatting (follow Flutter's `dartfmt`)
+- Write meaningful commit messages
+- Keep your changes focused
+
+### ✅ Commit Format Example
